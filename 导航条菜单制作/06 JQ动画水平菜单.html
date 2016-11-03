@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>导航菜单</title>
+
+	<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+		font-size:14px;
+	}
+
+	a{
+		color:#333;
+		text-decoration:none;
+	}
+
+	.nav{
+		list-style:none;
+		height:30px;
+		position:relative;
+		border-bottom:10px solid #F60;
+		margin-top:20px;
+	}
+
+	.nav li{
+		float:left;
+		width:80px;
+	}
+
+	.nav li a{
+		display:block;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		background:#efefef;
+		margin-left:1px;
+	}
+
+	.nav li a.on, .nav li a:hover{
+		background:#F60;
+		color:#fff;
+	}
+	</style>
+
+	<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery.kwicks-1.5.1.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript">
+	$(function()
+	{
+		$('.nav').kwicks({
+		max :120,
+		isVertical: false,
+		sticky: false,
+		defaultKwick: 0,
+		event: 'mouseover',
+		spacing: 0,
+		duration: 50
+		});
+	});
+	</script>
+</head>
+<body>
+	<ul class="nav">
+		<li><a class="on" href="#">首　　页</a></li>
+		<li><a href="#">关于我们</a></li>
+		<li><a href="#">产品展示</a></li>
+		<li><a href="#">售后服务</a></li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+</body>
+</html>

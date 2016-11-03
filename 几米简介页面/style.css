@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    width: 770px;
+    height: 735px;
+    background: #badbdb;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+.body_title{
+    width: 762px;
+    height: 92px;
+    margin: 0 auto;
+    background: url("images/banner.gif");
+    background-repeat: no-repeat;
+}
+
+.title_bar{
+    float: right;
+    color: white;
+    font-size: 12px;
+}
+
+/*
+    a:link 链接未被访问
+    a:visited 链接已被访问
+*/
+.title_bar a:link, .title_bar a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/*
+    a:hover 鼠标放在链接上的时候
+    a:active 链接被点击时候
+*/
+.title_bar a:hover, .title_bar a:active{
+    text-decoration: underline;
+}
+
+.body_content{
+    background: url("images/t_profile.gif");
+    background-repeat: no-repeat;
+    width: 762px;
+    height: 470px;
+    margin: 10px 4px 0px;
+    background-color:#eff9f9;
+}
+
+.body_content h2{
+    font-size: 15px;
+    padding: 45px 0px 10px 10px;
+    color:#346667;
+}
+
+.body_content p{
+    text-indent: 2em;
+    font-size: 12px;
+    margin: 10px;
+    color: #346667;
+    line-height: 2em;
+}
+
+.body_book{
+    background: url("images/t_book.gif");
+    background-repeat: no-repeat;
+    width: 765px;
+    height: 100px;
+    margin-top: 10px;
+    padding-top: 50px;
+    background-color:#eff9f9;
+}
+
+.body_book ul{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    margin-left: 25px;
+}
+
+li a img{
+    border: 1px solid darkgray;
+}
+
+.foot{
+    width: 770px;
+    margin: 20px auto;
+    text-align: center;
+    color: darkgray;
+    font-size: 12px;
+}

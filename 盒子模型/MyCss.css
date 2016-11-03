@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+
+/*div容器*/
+.container{
+    margin: 100px;
+    background-color:red;
+    padding: 50px;
+}
+
+/*外边框*/
+.border{
+    border-style: groove;
+    background: green;
+    padding:50px;
+}
+
+/*内填充*/
+.padding{
+    background-color: blue;
+	padding: 50px;
+}
+
+/*内容区*/
+.content{
+    background-color:yellow;
+    padding: 50px;
+}

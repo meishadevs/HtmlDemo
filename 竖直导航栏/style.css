@@ -1,0 +1,31 @@
+ul{
+    /*去掉列表中每项前面的小黑点*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+a:link 未被访问时的链接
+a:visited 用户已访问的链接
+*/
+a:link,a:visited{
+    /*去掉a标签下面的下划线*/
+    text-decoration: none;
+
+    /*将a标签变成块级元素*/
+    display: block;
+    background-color: burlywood;
+    color:aliceblue;
+    width: 50px;
+    text-align: center;
+}
+
+/*
+a:active 链接被点击时
+a:hover 鼠标的指针位于链接的上方
+*/
+a:active,a:hover{
+    background-color: red;
+    color:aliceblue;
+}

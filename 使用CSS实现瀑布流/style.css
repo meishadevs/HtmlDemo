@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    column-width: 250px;
+    -webkit-column-width: 250px;
+    column-gap: 5px;
+    -webkit-column-gap: 5px;
+}
+
+.container div{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.container p{
+    text-align: center;
+    color: red;
+}

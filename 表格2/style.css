@@ -1,0 +1,24 @@
+#tb{
+    /*合并表格中的边框*/
+    border-collapse: collapse;
+
+    /*设置整个表格的宽度*/
+    width: 500px;
+}
+
+td, th{
+    border: 1px solid bisque;
+    padding: 5px;
+}
+
+th{
+    text-align: right;
+    background-color: aqua;
+    color:white;
+}
+
+/*#tb tr.alt td{*/
+.alt td{
+    color: black;
+    background-color: aquamarine;
+}

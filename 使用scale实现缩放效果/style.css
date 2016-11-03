@@ -1,0 +1,25 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.div2{
+    margin-top: 200px;
+
+    /*将div2的宽度变为原来的3倍，高度变为原来的2倍*/
+    transform: scale(3, 2);
+
+    /*设置CSS3样式支持Safari和Chrome浏览器*/
+    -webkit-transform: scale(3, 2);
+
+    /*设置CSS3样式支持IE浏览器*/
+    -ms-transform: scale(3, 2);
+
+    /*设置CSS3样式支持Opera浏览器*/
+    -o-transform: scale(3, 2);
+
+    /*设置CSS3样式支持Firefox浏览器*/
+    -moz-transform: scale(3, 2);
+}

@@ -1,0 +1,40 @@
+/* CSS Document */
+*{margin:0; padding:0; font-size:12px; color:#333; font-family:Verdana, Geneva, sans-serif,"宋体"; list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline; color:#ff0000;}
+p{line-height:24px;}
+
+#wrap{width:780px; margin:0 auto; padding:0 10px 10px; border-left:1px solid #e7e7e7; border-right:1px solid #e7e7e7;}
+#header{width:100%; overflow:hidden;}
+.logo{width:100%; height:80px; line-height:80px; font-size:30px; font-family:"微软雅黑"; background:#3399cc; color:#fff; text-indent:30px;}
+.nav{width:100%; margin-top:10px;}
+.nav li{margin:0 32px; float:left;}
+.nav li a{color:#7f7f7f; font-size:16px; display:block; padding-bottom:2px;}
+.nav li a:hover{border-bottom:3px solid #cc0000; text-decoration:none;}
+.nav li.current{border-bottom:3px solid #cc0000;}
+.nav li.current a:hover{border-bottom:none;}
+
+#mainbody{width:100%; position:relative; margin-top:20px;}
+
+#sidebar{width:180px; padding-bottom:10px;}
+#sidebar dl{padding:0 0 5px ;}
+#sidebar dt{font-weight:bold; line-height:22px; font-family:"微软雅黑"; font-size:14px; color:#fff; background:#3399cc; padding:5px 0 5px 15px; font-weight:normal; margin-bottom:10px;}
+#sidebar dd{line-height:20px; padding-left:15px;}
+#sidebar dd.current a{color:#f00;}
+
+#content{margin-left:200px; position:absolute; top:0;}
+#content h1{color:#000; font-size:24px; font-family:"微软雅黑"; font-weight:normal;}
+#content h3{margin-top:10px; line-height:26px;}
+#content dl{margin-bottom:10px;}
+#content dt{font-weight:bold; line-height:26px;}
+#content dd{line-height:22px;}
+.learn a{color:#900b09; text-decoration:underline; padding-bottom:2px;}
+.learn a:hover{text-decoration:none;}
+.tips{color:#999; margin-top:20px;}
+.pageto{border-top:1px solid #aaa; border-bottom:3px solid #aaa; margin-top:5px; padding:15px 0;}
+.pageto a{margin:0 10px; background:#f3f3f3; padding:5px 20px; border:1px solid #dfdfdf; color:#555;}
+.pageto a:hover{color:#000; text-decoration:none;}
+
+.disline{border-bottom:1px dashed #ccc; margin-top:10px;}
+
+#footer{width:100%; margin-top:15px; padding:15px 0; text-align:center; color:#999; background:#ddd;}

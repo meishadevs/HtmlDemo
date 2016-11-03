@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div2{
+
+    transform: rotateY(120deg);
+
+    /*设置CSS3样式支持Safari和Chrome浏览器*/
+    -webkit-transform: rotateY(120deg);
+
+    /*设置CSS3样式支持IE浏览器*/
+    -ms-transform: rotateY(120deg);
+
+    /*设置CSS3样式支持Opera浏览器*/
+    -o-transform: rotateY(120deg);
+
+    /*设置CSS3样式支持Firefox浏览器*/
+    -moz-transform: rotateY(120deg);
+}

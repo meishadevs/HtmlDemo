@@ -1,0 +1,27 @@
+ul{
+    /*去掉列表中每项前面的小黑点*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    width: 270px;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding:3px;
+}
+
+a:link,a:visited{
+    /*去掉a标签下面的下划线*/
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+a:active,a:hover{
+    background-color: red;
+    color:aliceblue;
+}
+

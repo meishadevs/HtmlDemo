@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color:  #266392;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 910px;
+    margin: 0 auto;
+}
+
+.head-title{
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+/*logo的CSS样式*/
+.head-title a{
+    width: 217px;
+    height: 63px;
+    background: url("images/logo.gif");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.head-title dl{
+    float: right;
+    padding-top: 10px;
+}
+
+.head-title dl dt{
+    font-weight:bold;
+    color:#5a5a5a;
+    line-height:26px;
+}
+
+.head-title dl dd{
+    font-size:12px;
+    color:#828282;
+    line-height:24px;
+}
+
+.head-nav{
+    width: 910px;
+    height: 36px;
+    background: url("images/navbg.gif");
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.head-nav ul{
+    list-style-type: none;
+    width: 94%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head-nav li{
+    float:left;
+    line-height:34px;
+    font-weight:bold;
+    margin: 0 20px;
+    font-size:16px;
+}
+
+.head-nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/*首页的CSS样式*/
+.head-nav li.firstpage{
+    background:url("images/home.gif");
+    background-position: 0px 4px;
+    background-repeat: no-repeat;
+    width:88px;
+    text-align:center;
+}
+
+.head-nav .firstpage a{
+    color: black;
+}
+
+.head-nav .QQ-lab{
+    float: right;
+    background: url("images/arrow_r.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    padding-left: 20px;
+}
+
+.body{
+    width: 100%;
+    /*height: 550px;*/
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.content{
+    width: 600px;
+    /*height: 500px;*/
+    float: left;
+}
+
+.introduce{
+    width: 600px;
+    margin-top: 10px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom:1px solid #cce6f5;
+}
+
+.introduce .software{
+    float: left;
+    color: #266392;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.introduce .more{
+    float: right;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.software:hover,.more:hover{
+    text-decoration: underline;
+}
+
+.softwarelist{
+    width: 600px;
+    margin-top: 15px;
+}
+
+.softwarelist li{
+    margin-bottom: 15px;
+}
+
+.softwarelist dt a{
+    /*padding-right: 10px;*/
+}
+
+.softwarelist dt a:hover{
+    text-decoration: none;
+}
+
+/*更新日期的CSS样式*/
+.softwarelist .updatedate{
+    color: #828282;
+    font-size: 13px;
+}
+
+.new{
+    padding-right: 10px;
+}
+
+.softwarelist dd{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.download{
+    float: right;
+    margin-top: -30px;
+    font-size: 10px;
+}
+
+.download a:hover{
+    text-decoration: none;
+}
+
+.software_1{
+    background: url("images/icon_1.gif");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.software_2{
+    background: url("images/icon_2.gif");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.software_3{
+    background: url("images/icon_3.gif");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.software_4{
+    background: url("images/icon_4.gif");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.software_5{
+    background: url("images/icon_5.gif");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.software_6{
+    background: url("images/icon_6.gif");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.sidebar{
+    width: 290px;
+    height: 550px;
+    float: right;
+}
+
+.sidebar h4{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom:1px solid #cce6f5;
+}
+
+.newslist li{
+    font-size: 13px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.newslist a{
+    text-decoration: none;
+}
+
+/*更多推荐的CSS样式*/
+.recommend{
+    margin-top: 35px;
+    height: 20px;
+    border-bottom:1px solid #cce6f5;
+}
+
+.recommend .software{
+    float: left;
+    color: #266392;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.recommend .more{
+    float: right;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.newslist a:hover, .recommend .software:hover, .recommend .more:hover{
+    text-decoration: underline;
+}
+
+/*推荐列表的CSS样式*/
+.recommendlist{
+    margin-top: 20px;
+}
+
+.recommendlist li{
+    overflow:hidden;
+}
+
+.softname{
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+
+.softname:hover{
+    text-decoration: underline;
+}
+
+.soft_1{
+    height: 20px;
+    background: url("images/soft_r_1.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    padding-bottom: 5px;
+}
+
+.soft_2{
+    height: 20px;
+    background: url("images/soft_r_2.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    padding-bottom: 5px;
+}
+
+.soft_3{
+    height: 20px;
+    background: url("images/soft_r_3.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    padding-bottom: 5px;
+}
+
+.soft_4{
+    height: 20px;
+    background: url("images/soft_r_4.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    padding-bottom: 5px;
+}
+
+.soft_5{
+    height: 20px;
+    background: url("images/soft_r_5.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    padding-bottom: 5px;
+}
+
+.soft_6{
+    height: 20px;
+    background: url("images/soft_r_6.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    padding-bottom: 5px;
+}
+
+.recommendlist .download{
+    float: right;
+}
+
+.recommendlist span{
+    background: url("images/downicon.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    float: right;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.recommendlist span a{
+    font-size: 13px;
+}
+
+.recommendlist span a:hover{
+    text-decoration: none;
+}
+
+.partner{
+    margin-top: 10px;
+}
+
+.partner h5{
+    padding-bottom: 5px;
+    border-bottom:1px solid #cce6f5;
+}
+
+table{
+    width: 290px;
+}
+
+td{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.foot{
+    width: 100%;
+    height: 80px;
+    /*margin-top: 30px;*/
+    background-color: #F8F8F8;
+    border: 1px solid #E6E6E6;
+}
+
+.foot .p1{
+    text-align: center;
+    font-size: 10px;
+    line-height: 40px;
+    color: darkgray;
+}
+
+table a{
+    text-decoration: none;
+}
+
+table a:hover{
+    text-decoration: underline;
+}
+
+.foot .p2{
+    font-size: 10px;
+    text-align: center;
+    color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

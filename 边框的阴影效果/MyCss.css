@@ -1,0 +1,15 @@
+p{
+    border-radius: 10px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    border-style: solid;
+}
+
+.cssid{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    box-shadow: 10px 10px 5px pink;
+}

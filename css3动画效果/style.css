@@ -1,0 +1,80 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+
+	/*创建一个动画
+	anim：动画的名称
+	5s：动画的播放时间
+	infinite alernate：动画播放完成后回过头播放原动画，类似于Cocos中的resever动作*/
+    animation: anim 5s infinite alternate;
+    -webkit-animation: anim 5s infinite alternate;
+}
+
+/*设置各个阶段的状态*/
+@keyframes  anim {
+
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+        background-color: blue;
+        left: 200px;
+        top: 0px;
+    }
+
+    50%{
+        background-color: #ccffcc;
+        left: 200px;
+        top: 200px;
+    }
+
+    75%{
+        background-color: cyan;
+        left: 0px;
+        top: 200px;
+    }
+
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes anim {
+
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+        background-color: blue;
+        left: 200px;
+        top: 0px;
+    }
+
+    50%{
+        background-color: #ccffcc;
+        left: 200px;
+        top: 200px;
+    }
+
+    75%{
+        background-color: #00ffff;
+        left: 0px;
+        top: 200px;
+    }
+
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

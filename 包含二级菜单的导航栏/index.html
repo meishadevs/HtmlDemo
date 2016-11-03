@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>动画菜单</title>
+
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        .nav{
+            height: 30px;
+            border-bottom: 5px solid #F60;
+            margin-left:50px;
+            width:600px;
+        }
+
+        .nav li{
+            float: left;
+            position:relative;
+            height:30px;
+            width:120px;
+        }
+
+        .nav li a{
+            display: block;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            width:120px;
+            background: #efefef;
+            margin-left: 1px;
+        }
+
+        .subNav{
+            position:absolute;
+            top:30px;
+            left:0;
+            width:120px;
+            height:0;
+            overflow:hidden;
+        }
+
+        .subNav li a{
+            background:#ddd;
+        }
+
+        .subNav li a:hover{
+            background:#efefef;
+        }
+    </style>
+
+    <script>
+
+        //当整个网页加载完成后,调用这个方法
+        window.onload = function()
+        {
+            //获得整个网页中的所有的li标签
+            var aLi = document.getElementsByTagName('li');
+
+            //遍历网页中的li标签
+            for(var i = 0; i < aLi.length; i++)
+            {
+                //当鼠标的指针放在li标签上的时候
+                aLi[i].onmouseover = function()
+                {
+                    //获得li标签下的ul标签
+                    var oSubNav = this.getElementsByTagName('ul')[0];
+
+                    //如果在li标签下还存在ul标签
+                    if(oSubNav)
+                    {
+
+                        //定义变量This标记ul标签
+                        var This = oSubNav;
+
+                        //移除定时器
+                        clearInterval(This.time);
+
+                        //创建一个每30毫秒调用一次的定时器
+                        This.time = setInterval(
+
+                        //定时器回调函数
+                        function()
+                        {
+                            //定时器每调用一次，ul标签的高度增加16px
+                            This.style.height = This.offsetHeight + 16+"px";
+
+                            //如果ul标签的高度大于或等于120px
+                            if(This.offsetHeight>=120)
+                            {
+                                //移除定时器
+                                clearInterval(This.time);
+                            }
+                        },
+                        30);
+                    }
+                }
+
+                //鼠标离开菜单，二级菜单动画收缩起来。
+                aLi[i].onmouseout = function()
+                {
+                    //获得li标签下的ul标签
+                    var oSubNav = this.getElementsByTagName('ul')[0];
+
+                    //如果li标签下还有ul标签
+                    if(oSubNav)
+                    {
+                        //用This表示li标签下的ul标签
+                        var This = oSubNav;
+
+                        //移除定时器
+                        clearInterval(This.time);
+
+                        //创建一个每隔30毫秒调用一次的定时器
+                        This.time = setInterval(
+
+                        //定时器回调函数
+                        function()
+                        {
+                            //定时器每调用一次,ul标签的高度减少16px
+                            This.style.height = This.offsetHeight - 16 + "px";
+
+                            //当ul标签的高度小于等于0的时候
+                            if(This.offsetHeight <= 0)
+                            {
+                                //移除定时器
+                                clearInterval(This.time);
+                            }
+                        },
+                        30)
+                    }
+                }
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="#">一级菜单</a>
+            <ul class="subNav">
+                <li><a href="#">二级菜单</a></li>
+                <li><a href="#">二级菜单</a></li>
+                <li><a href="#">二级菜单</a></li>
+                <li><a href="#">二级菜单</a></li>
+            </ul>
+        </li>
+        <li><a href="#">一级菜单</a>
+            <ul class="subNav">
+                <li><a href="#">二级菜单</a></li>
+                <li><a href="#">二级菜单</a></li>
+                <li><a href="#">二级菜单</a></li>
+                <li><a href="#">二级菜单</a></li>
+            </ul>
+        </li>
+        <li><a href="#">一级菜单</a></li>
+        <li><a href="#">一级菜单</a></li>
+        <li><a href="#">一级菜单</a></li>
+    </ul>
+</body>
+</html>

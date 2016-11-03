@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>绝对定位实现布局</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <div id="wrap">
+
+    <div id="header">
+
+      <div class="logo">前端开发教程</div>
+
+      <div class="nav">
+        <ul>
+          <li class="current"><a href="#">CSS</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">jQuery</a></li>
+          <li><a href="#">Ajax</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div id="mainbody">
+
+      <div id="sidebar">
+        <dl>
+          <dt>CSS 基础教程</dt>
+          <dd class="current"><a href="#">CSS 简介</a></dd>
+          <dd><a href="#">CSS 基础语法</a></dd>
+          <dd><a href="#">CSS 高级语法</a></dd>
+          <dd><a href="#">CSS 派生选择器</a></dd>
+          <dd><a href="#">CSS id 选择器</a></dd>
+          <dd><a href="#">CSS 类选择器</a></dd>
+          <dd><a href="#">CSS 属性选择器</a></dd>
+          <dd><a href="#">CSS 创建</a></dd>
+        </dl>
+        <dl>
+          <dt>CSS 样式</dt>
+          <dd><a href="#">CSS 背景</a></dd>
+          <dd><a href="#">CSS 文本</a></dd>
+          <dd><a href="#">CSS 字体</a></dd>
+          <dd><a href="#">CSS 链接</a></dd>
+          <dd><a href="#">CSS 列表</a></dd>
+          <dd><a href="#">CSS 表格</a></dd>
+          <dd><a href="#">CSS 轮廓</a></dd>
+        </dl>
+        <dl>
+          <dt>CSS 盒子模型</dt>
+          <dd><a href="#">CSS 盒子模型概述</a></dd>
+          <dd><a href="#">CSS 内边距</a></dd>
+          <dd><a href="#">CSS 边框</a></dd>
+          <dd><a href="#">CSS 外边距</a></dd>
+          <dd><a href="#">CSS 外边距合并</a></dd>
+        </dl>
+        <dl>
+          <dt>CSS 定位</dt>
+          <dd><a href="#">CSS 定位概述</a></dd>
+          <dd><a href="#">CSS 相对定位</a></dd>
+          <dd><a href="#">CSS 绝对定位</a></dd>
+          <dd><a href="#">CSS 浮动</a></dd>
+        </dl>
+        <dl>
+          <dt>CSS 选择器</dt>
+          <dd><a href="#">CSS 元素选择器</a></dd>
+          <dd><a href="#">CSS 选择器分组</a></dd>
+          <dd><a href="#">CSS 类选择器详解</a></dd>
+          <dd><a href="#">CSS ID 选择器详解</a></dd>
+          <dd><a href="#">CSS 属性选择器详解</a></dd>
+          <dd><a href="#">CSS 后代选择器</a></dd>
+          <dd><a href="#">CSS 子元素选择器</a></dd>
+          <dd><a href="#">CSS 相邻兄弟选择器</a></dd>
+          <dd><a href="#">CSS 伪类</a></dd>
+          <dd><a href="#">CSS 伪元素</a></dd>
+        </dl>
+        <dl>
+          <dt>CSS 高级</dt>
+          <dd><a href="#">CSS 对齐</a></dd>
+          <dd><a href="#">CSS 尺寸</a></dd>
+          <dd><a href="#">CSS 分类</a></dd>
+          <dd><a href="#">CSS 导航栏</a></dd>
+          <dd><a href="#">CSS 图片库</a></dd>
+          <dd><a href="#">CSS 图片透明</a></dd>
+          <dd><a href="#">CSS 媒介类型</a></dd>
+          <dd><a href="#">CSS 注意事项</a></dd>
+          <dd><a href="#">CSS 总结</a></dd>
+        </dl>
+      </div>
+
+      <div id="content">
+        <h1>CSS 简介</h1>
+        <div class="pageto"><a href="#">上一章</a> <a href="#">下一章</a></div>
+        <h3>你应该知道这些知识</h3>
+        <p>在继续之前，你应该有一个以下基本认识：</p>
+        <p>&middot; HTML / XHTML</p>
+        <p class="learn">如果您希望首先学习这些项目，我们的<a href="#">主页</a>上可以找到教程。</p>
+        <div class="disline"></div>
+        <h3>什么是CSS？</h3>
+        <p>CSS即级联样式表。
+  它是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。</p>
+        <div class="disline"></div>
+        <h3>基本信息</h3>
+        <p>CSS目前最新版本为CSS3，是能够真正做到网页表现与内容分离的一种样式设计语言。相对于传统HTML的表现而言，CSS能够对网页中的对象的位置排版进行像素级的精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力，并能够进行初步交互设计，是目前基于文本展示最优秀的表现设计语言。CSS能够根据不同使用者的理解能力，简化或者优化写法，针对各类人群，有较强的易读性。</p>
+        <div class="disline"></div>
+        <h3>发展历史</h3>
+        <dl><dt>CSS1</dt>
+  <dd>作为一项W3C推荐，CSS1发布于 1996年12月17 日。1999 年1月11日，此推荐被重新修订。</dd></dl>
+  <dl>
+  <dt>CSS2</dt>
+  <dd>作为一项 W3C 推荐，CSS2发布于 1999年1月11日。CSS2添加了对媒介（打印机和听觉设备）和可下载字体的支持。</dd>
+  </dl>
+  <dl>
+  <dt>CSS3</dt>
+  <dd>CSS3 计划将 CSS 划分为更小的模块。</dd>
+        <p class="learn"><a href="#">亲自体验一下</a>！</p>
+        <div class="pageto"><a href="#">上一章</a> <a href="#">下一章</a></div>
+        <p class="tips">本站提供的内容仅用于学习培训。我们不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。</p>
+      </div>
+
+    </div>
+
+    <div id="footer">慕课&copy;版权所有</div>
+
+  </div>
+
+</body>
+</html>

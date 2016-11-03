@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>导航菜单</title>
+
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+
+		a{
+			color: #333;
+			text-decoration: none;
+		}
+
+		ul{
+			list-style: none;
+			height: 30px;
+			border-bottom: 5px solid #F60;
+			margin-top: 20px;
+			padding-left: 50px;
+		}
+
+		ul li{
+			float: left;
+		}
+
+		ul li a{
+			display: block;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			width:120px;
+			background: #efefef;
+			margin-left: 1px;
+		}
+
+		a.on, a:hover{
+			background-color: #F60;
+			color: #fff;
+		}
+	</style>
+
+	<script>
+	
+		//当整个网页加载完成后调用此方法
+		window.onload = function()
+		{
+			//获得html中所有的a标签
+			var aA = document.getElementsByTagName('a');
+
+//			//遍历html中的a标签
+			for(var i = 0; i < aA.length; i++)
+			{
+				//当鼠标的指针移到a标签上的时候
+				aA[i].onmouseover = function()
+				{
+					var This = this;
+
+					//移除定时器
+					clearInterval(This.time);
+
+					//创建一个每30毫秒调用一次的定时器
+					This.time = setInterval(
+
+				    //定时器回调函数
+					function()
+					{
+						//定时器每调用一次，a标签的宽度增加8px
+						This.style.width=This.offsetWidth + 8 + "px";
+
+						//当a标签的宽度增加到160时
+						if(This.offsetWidth>=160)
+						{
+							//移除定时器
+							clearInterval(This.time);
+						}
+					},
+					30)
+				}
+
+				//当鼠标的指针移出a标签的时候
+				aA[i].onmouseout = function()
+				{
+					//移除定时器
+					clearInterval(this.time);
+
+					var This = this;
+
+					//创建一个每30秒钟调用一次的定时器
+					this.time=setInterval(function()
+					{
+						//定时器每调用一次,a标签的宽度减少8px
+						This.style.width = This.offsetWidth - 8 + "px";
+
+						//当a标签的宽度减少到120px时候
+						if(This.offsetWidth <= 120)
+						{
+							//将a标签的宽度设置为120px
+							This.style.width='120px';
+
+							//移除定时器
+							clearInterval(This.time);
+						}
+					},
+					30);
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<ul>
+		<li><a class="on" href="#">首　　页</a></li>
+		<li><a href="#">新闻快讯</a></li>
+		<li><a href="#">产品展示</a></li>
+		<li><a href="#">售后服务</a></li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+</body>
+</html>

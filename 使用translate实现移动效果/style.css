@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div2{
+
+    /*将div2分别在x轴上向右移动200px，在y轴上向上移动100px*/
+    transform:translate(200px, 100px);
+
+    /*设置CSS3样式支持Safari和Chrome浏览器*/
+    -webkit-transform: translate(200px, 100px);
+
+    /*设置CSS3样式支持IE浏览器*/
+    -ms-transform: translate(200px, 100px);
+
+    /*设置CSS3样式支持Opera浏览器*/
+    -o-transform: translate(200px, 100px);
+
+    /*设置CSS3样式支持Firefox浏览器*/
+    -moz-transform: translate(200px, 100px);
+}

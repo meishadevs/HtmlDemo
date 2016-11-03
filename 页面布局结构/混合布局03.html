@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>混合布局</title>
+<style>
+body{ margin:0; padding:0; font-size:30px; font-weight:bold}
+div{ text-align:center; line-height:50px}
+.head, .main, .footer{ width:960px; margin:0 auto}
+.head{ height:100px;background:#9CF}
+.left{ width:220px; height:600px; background:#ccc; float:left}
+.right{ width:740px; height:600px;background:#FCC; float:right}
+.r_sub_left{ width:540px; height:600px; background:#9C3; float:left}
+.r_sub_right{ width:200px; height:600px; background:#9FC; float:right}
+.footer{ height:50px; background:#9F9; clear:both}
+</style>
+</head>
+
+<body>
+<div class="head">head</div>
+<div class="main">
+    <div class="left">left</div>
+    <div class="right">
+    	<div class="r_sub_left">sub_left
+        </div>
+        <div class=" r_sub_right">sub_right
+        </div>
+    </div>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>

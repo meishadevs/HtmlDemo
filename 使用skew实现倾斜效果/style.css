@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.div2{
+
+    /*将div2围绕x轴倾斜20度，围绕y倾斜20度*/
+    transform: skew(20deg, 20deg);
+
+    /*设置CSS3样式支持Safari和Chrome浏览器*/
+    -webkit-transform: skew(20deg, 20deg);
+
+    /*设置CSS3样式支持IE浏览器*/
+    -ms-transform: skew(20deg, 20deg);
+
+    /*设置CSS3样式支持Opera浏览器*/
+    -o-transform: skew(20deg, 20deg);
+
+    /*设置CSS3样式支持Firefox浏览器*/
+    -moz-transform: skew(20deg, 20deg);
+}

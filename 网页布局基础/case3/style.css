@@ -1,0 +1,377 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:14px;
+    color:#323232;
+    list-style:none;
+    font-family:Verdana, Geneva, sans-serif,"宋体";
+}
+
+a{
+    color:#266392;
+    text-decoration:none;
+}
+
+/*
+a:hover 鼠标指针位于链接上方时
+*/
+a:hover{
+    text-decoration:underline;
+}
+
+h2{
+    line-height:28px;
+    border-bottom:1px solid #cce6f5;
+    margin-bottom:10px;
+}
+
+h2 span{
+    float:right;
+}
+
+h2 span a{
+    font-size:12px;
+    font-weight:normal;
+}
+
+/*设置用于包裹整个页面的div容器的CSS样式*/
+#container{
+    width:910px;
+    margin:0 auto;
+}
+
+/*设置头部和内容主体的CSS样式*/
+#head, #body{
+    width:100%;
+    margin-bottom:10px;
+}
+
+/*设置logo展示区的CSS样式*/
+.logo{
+    width:100%;
+    overflow:hidden;
+    margin-top:5px;
+}
+
+.logo a{
+    float:left;
+    background:url("images/logo.gif");
+    background-repeat: no-repeat;
+    width:218px;
+    height:63px;
+}
+
+.logo dl{
+    float:right;
+    margin-top:10px;
+}
+
+.logo dt{
+    font-weight:bold;
+    color:#5a5a5a;
+    line-height:26px;
+}
+
+.logo dd{
+    font-size:12px;
+    color:#828282;
+    line-height:24px;
+}
+
+/*水平导航栏的CSS样式*/
+#nav{
+    width:910px
+    height:36px;
+    background:url("images/navbg.gif");
+    background-repeat: no-repeat;
+    margin-top:8px;
+}
+
+/*水平导航栏上的列表的CSS样式*/
+#nav ul{
+    width:94%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+/*列表中每一项的CSS样式*/
+#nav li{
+    float:left;
+    line-height:34px;
+    font-weight:bold;
+    margin: 0 20px;
+    font-size:16px;
+}
+
+#nav li a{
+    color:#fff;
+}
+
+/*
+a:hover 鼠标指针位于链接上方时
+*/
+#nav li a:hover{
+    text-decoration:none;
+}
+
+/*主页选项的CSS样式*/
+#nav li.current{
+    background:url("images/home.gif");
+    background-position: 0px 4px;
+    background-repeat: no-repeat;
+    width:88px;
+    text-align:center;
+}
+
+/*主页选项下的a标签的CSS样式*/
+#nav li.current a{
+    color:#000;
+}
+
+/*QQ实验室的CSS样式*/
+#nav li.qq_lab{
+    float:right;
+    background:url("images/arrow_r.gif");
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    padding-left:25px;
+}
+
+/*左边内容区的CSS样式*/
+.content{
+    float:left;
+    width:600px;
+}
+
+.box{
+    width:100%;
+    margin-bottom:15px;
+}
+
+/*右边侧边栏的CSS样式*/
+.sidebar{
+    float:right;
+    width:280px;
+}
+
+.sidebar li a{
+    font-size:12px;
+}
+
+.softwarelist{
+    width:100%;
+    overflow:hidden;
+}
+
+.softwarelist li{
+    margin-bottom:15px;
+    width:100%;
+    overflow:hidden;
+}
+
+.softwarelist li dl{
+    float:left;
+    padding-left:45px;
+}
+
+.softwarelist li span{
+    float:right;
+    font-size:12px;
+    color:#630063;
+    margin-top:5px;
+}
+
+.softwarelist li span a{
+    font-size:12px;
+    text-decoration:underline;
+}
+
+.softwarelist li span a:hover{
+    text-decoration:none;
+}
+
+.softwarelist li dt{
+    font-size:12px;
+    color:#828282;
+    line-height:26px;
+}
+
+.softwarelist li dt a{
+    text-decoration:underline;
+    font-weight:bold;
+    margin-right:10px;
+}
+
+.softwarelist li dt a:hover{
+    text-decoration:none;
+}
+
+.softwarelist li dd{
+    line-height:24px;
+}
+
+/*QQ的CSS样式*/
+.software_1{
+    background:url("images/icon_1.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*腾讯电脑管家的CSS样式*/
+.software_2{
+    background:url("images/icon_2.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*软件管理的CSS样式*/
+.software_3{
+    background:url("images/icon_3.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*QQ音乐2014贺岁版的CSS样式*/
+.software_4{
+    background:url("images/icon_4.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*QQ浏览器的CSS样式*/
+.software_5{
+    background:url("images/icon_5.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*QQ影像的CSS样式*/
+.software_6{
+    background:url("images/icon_6.gif");
+    background-position: 0px 5px;
+    background-repeat:  no-repeat;
+}
+
+/*实现了在腾讯电脑管家和QQ音乐项中显示"新"*/
+.new{
+    background:url("images/new.gif");
+    background-position: right 4px;
+    background-repeat: no-repeat;
+    padding-right:15px;
+}
+
+.download{
+    padding:3px 0 0 15px;
+    background:url("images/downicon.gif");
+    background-position: 0px 6px;
+    background-repeat:  no-repeat;
+}
+
+.downlist{
+    width:100%;
+    overflow:hidden;
+}
+
+.downlist li{
+    overflow:hidden;
+    line-height:26px;
+    padding-left:23px;
+    margin-bottom:5px;
+}
+
+.downlist li span{
+    float:right;
+    font-size:12px;
+    color:#630063;
+}
+
+.downlist li span a{
+    font-size:12px;
+    text-decoration:underline;
+}
+
+.downlist li span a:hover{
+    text-decoration:none;
+}
+
+/*QQ旋风*/
+.soft_r_1{
+    background:url("images/soft_r_1.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*腾讯视频播放器*/
+.soft_r_2{
+    background:url("images/soft_r_2.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*QQ影音*/
+.soft_r_3{
+    background:url("images/soft_r_3.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*小Q书桌*/
+.soft_r_4{
+    background:url("images/soft_r_4.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*Foxmail*/
+.soft_r_5{
+    background:url("images/soft_r_5.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*顽固木马克星*/
+.soft_r_6{background:url("images/soft_r_6.gif");
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+}
+
+/*最新动态列表*/
+.newslist{
+    width:100%;
+}
+
+.newslist li{
+    line-height:22px;
+}
+
+.fri_link{
+    width:100%;
+}
+
+.fri_link a{
+    width:88px;
+    float:left;
+    font-size:12px;
+    margin-right:5px;
+    line-height:26px;
+}
+
+.margin_btm_15{
+    margin-bottom:15px;
+}
+
+#foot{
+    clear: both;
+    margin-top:10px;
+    padding:15px 0;
+    width:100%;
+    text-align:center;
+    border-top:1px solid #e6e6e6;
+    background:#f8f8f8;
+}
+
+#foot li{
+    line-height:24px;
+    color:#9e9e9e;
+    font-size:12px;
+}
