@@ -1,0 +1,74 @@
+
+/*版心*/
+.public-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* 头部 s */
+.public-header {
+    height: 110px;
+}
+
+.public-header .header-logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.public-header .header-logo a {
+    width: 182px;
+    height: 54px;
+    background: url("../images/index-header-logo.png") no-repeat;
+}
+
+.public-header .header-nav {
+    float: right;
+    font-size: 14px;
+}
+
+.public-header .header-nav .item {
+    float: left;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+
+.header-nav .item a {
+    color: #3b3b3b;
+}
+
+.header-nav .item a:hover {
+    text-decoration: underline;
+}
+
+/* 头部 e */
+.public-footer {
+    height: 217px;
+    padding-top: 100px;
+    background-color: #3b3b3b;
+}
+
+.public-footer .footer-col {
+    width: 230px;
+    line-height: 1.8;
+    margin-right: 60px;
+    font-size: 16px;
+    color: #fff;
+    float: left;
+}
+
+.public-footer .last{
+    margin-right: 0;
+}
+
+.public-footer .footer-logo {
+    width: 182px;
+    height: 55px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+    background: url("../images/index-footer-logo.png") no-repeat;
+}
+
+.public-footer .footer-col a {
+    color: #fff;
+}
+/* 脚部 */

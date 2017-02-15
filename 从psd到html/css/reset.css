@@ -1,0 +1,61 @@
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, input, form, a, p, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    border: none;
+
+    /*清除3像素的间距*/
+    vertical-align: middle;
+    display: block;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+
+    /*隐藏元素，元素隐藏后会占用页面空间*/
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

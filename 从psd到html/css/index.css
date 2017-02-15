@@ -1,0 +1,294 @@
+/* banner s */
+.index-banner {
+    position: relative;
+}
+
+.index-banner-bg {
+    height: 570px;
+    overflow: hidden;
+}
+
+.index-banner-bg img {
+    width: 1499px;
+    margin: 0 auto;
+}
+
+.index-banner-text {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    margin-left: -388px;
+}
+
+.index-banner-text .text-logo {
+    width: 776px;
+    height: 117px;
+    background: url("../images/index-banner-textlogo.png") no-repeat;
+}
+
+.index-banner-text .text-info {
+    margin-top: 17px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.index-banner-text .text-info .line {
+    width: 40px;
+    border: solid 1px #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.index-banner-text .text-info .line-l {
+    margin-right: 26px;
+}
+
+.index-banner-text .text-info .line-r {
+    margin-left: 26px;
+}
+/* banner e */
+
+/* 菜单 s */
+.index-menu {
+    position: relative;
+    border-top: solid 4px #f34949;
+}
+
+.index-menu .menu-tips {
+    width: 156px;
+    height: 70px;
+    line-height: 65px;
+    margin-left: -78px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f34949;
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+}
+
+.index-menu .menu-tips:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.index-menu .menu-list {
+    margin-top: 150px;
+    color: #555;
+    overflow: hidden;
+}
+
+.index-menu .menu-list ul {
+    width: 1160px;
+}
+
+.index-menu .menu-item {
+    float: left;
+    width: 520px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+}
+
+.index-menu .menu-item .title,
+.index-menu .menu-item .line {
+    float: left;
+}
+
+.index-menu .menu-item .price {
+    float: right;
+}
+
+.index-menu .menu-item .title {
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #555;
+}
+
+.index-menu .menu-item .comment {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #b7b7b7;
+}
+
+.index-menu .menu-item .line {
+    width: 192px;
+    margin-top: 10px;
+    border-top: 1px solid #e3e1e1;
+}
+
+.index-menu .menu-more-btn {
+    width: 117px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 14px;
+    margin: 0 auto;
+    border: solid 1px #d7d5d5;
+    color: #b7b7b7;
+    font-size: 14px;
+}
+
+.index-menu .menu-more-btn .icon {
+    width: 11px;
+    height: 7px;
+    margin-left: 12px;
+    background: url("../images/icon.png") no-repeat;
+    display: inline-block;
+}
+/* 菜单 e */
+
+/* 面板 s */
+.index-panel {
+    margin-top: 200px;
+}
+
+.index-panel-header {
+
+}
+
+.index-panel-header h3 {
+    float: left;
+    margin-right: 48px;
+    font-size: 20px;
+    color: #3b3b3b;
+}
+
+.index-panel-header .line {
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    border-top: 1px solid #e5e3e3;
+}
+
+.index-panel-header .btn-group {
+    float: right;
+    font-size: 0;
+}
+
+.index-panel-header .btn {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-left: 11px;
+    background-color: #dedede;
+    border-radius: 50%;
+}
+
+.index-panel-header .active {
+    background-color: #9b9b9b;
+}
+
+.index-panel-body {
+    margin-top: 75px;
+}
+
+.index-food-list {
+    overflow: hidden;
+}
+
+.index-food-list ul {
+    width: 1160px;
+}
+
+.index-food-list .food-item {
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+}
+
+.index-food-list .food-item .banner {
+    height: 202px;
+    margin-bottom: 30px;
+}
+
+.index-food-list .food-item .name {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.index-food-list .food-item .price {
+    float: right;
+}
+
+.index-food-list .food-item .star-bar {
+    font-size: 0;
+}
+
+.index-food-list .food-item .star {
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 6px;
+    background-image: url("../images/star.png");
+    background-repeat: no-repeat;
+}
+
+.index-food-list .food-item .nostar {
+    background-position: 0 -11px;
+}
+
+.index-pics {
+    height: 380px;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+
+.index-pics .pic-col {
+    float: left;
+}
+
+.index-pics .pic-col-m {
+    width: 353px;
+}
+
+.index-pics .pic-col-s {
+    width: 287px;
+}
+
+.index-pics .pic-col-s .pic-row2 {
+    width: 287px;
+    height: 130px;
+    background: url("../images/food7.png") no-repeat;
+    background-position: 0px -34px;
+}
+
+.index-pics .pic-col-l {
+    width: 460px;
+}
+/* 面板 e */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
