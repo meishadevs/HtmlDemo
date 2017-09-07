@@ -1,78 +1,50 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,
-    user-scalable=no">
-    <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>三列布局</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
         }
 
-        html,
-        body {
-            width: 100%;
-            height: 100%;
+        .wrapper {
+            position: relative;
         }
 
-        .container {
-            width: 100%;
-            height: 100%;
-            background-color: darkgray;
+        .left{
+            width:200px;
+            height:600px;
+            background:#ccc;
+            position: absolute;
+            left:0;
+            top:0
         }
 
-        .header {
-            width: 100%;
-            height: 10%;
-            background-color: #00FFFF;
+        .main{
+            height:600px;
+            line-height:50px;
+            margin: 0px 310px 0px 210px;
+            background:#9CF;
         }
 
-        .content {
-            width: 100%;
-            height: 80%;
-            background-color: aliceblue;
-            overflow: hidden;
-        }
-
-        .left {
-            width: 20%;
-            height: 100%;
-            background-color: #0000FF;
-            float: left;
-        }
-
-        .middle {
-            width: 60%;
-            height: 100%;
-            background-color: #8A2BE2;
-            float: left;
-        }
-
-        .right {
-            width: 20%;
-            height: 100%;
-            background-color: #8B4513;
-            float: left;
-        }
-
-        .bottom {
-            width: 100%;
-            height: 10%;
-            background-color: #7FFF00;
+        .right{
+            width:300px;
+            height:600px;
+            background:#FCC;
+            position:absolute;
+            top:0;
+            right: 0;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-    <div class="header">头部</div>
-    <div class="content">
-        <div class="left">左侧</div>
-        <div class="middle">内容主体</div>
-        <div class="right">右侧</div>
+    <div class="wrapper">
+        <div class="left">left</div>
+        <div class="main">设计首页的第一步是设计版面布局。就象传统的报刊杂志编辑一样，我们将网页看作一张报纸，一本杂志来进行排版布局。 虽然动态网页技术的发展使得我们开始趋向于学习场景编剧，但是固定的网页版面设计基础依然是必须学习和掌握的。它们的基本原理是共通的，你可以领会要点，举一反三。</div>
+        <div class="right">right</div>
     </div>
-    <div class="bottom">底部</div>
-</div>
 </body>
 </html>
