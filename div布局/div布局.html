@@ -1,62 +1,78 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
+<!doctype html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>div布局</title>
-    <style type="text/css">
-        body{
-            margin: 0px;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,
+    user-scalable=no">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
         }
 
-        #container{
+        html,
+        body {
             width: 100%;
-            height: 950px;
+            height: 100%;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
             background-color: darkgray;
         }
 
-        #heading{
+        .header {
             width: 100%;
             height: 10%;
-            background-color: aqua;
+            background-color: #00FFFF;
         }
 
-        #left_menu{
-            width: 20%;
+        .content {
+            width: 100%;
             height: 80%;
-            background-color: blue;
+            background-color: aliceblue;
+            overflow: hidden;
+        }
+
+        .left {
+            width: 20%;
+            height: 100%;
+            background-color: #0000FF;
             float: left;
         }
 
-        #content_body{
+        .middle {
             width: 60%;
-            height: 80%;
-            background-color: blueviolet;
+            height: 100%;
+            background-color: #8A2BE2;
             float: left;
         }
 
-        #right_menu{
+        .right {
             width: 20%;
-            height: 80%;
-            background-color: saddlebrown;
+            height: 100%;
+            background-color: #8B4513;
             float: left;
         }
 
-        #footing{
+        .bottom {
             width: 100%;
             height: 10%;
-            background-color: chartreuse;
-		    overflow:hidden;
+            background-color: #7FFF00;
         }
-
     </style>
 </head>
 <body>
-<div id="container">
-    <div id="heading">头部</div>
-    <div id="left_menu">左侧菜单</div>
-    <div id="content_body">内容主体</div>
-    <div id="right_menu">右侧菜单</div>
-    <div id="footing">底部</div>
+<div class="container">
+    <div class="header">头部</div>
+    <div class="content">
+        <div class="left">左侧</div>
+        <div class="middle">内容主体</div>
+        <div class="right">右侧</div>
+    </div>
+    <div class="bottom">底部</div>
 </div>
 </body>
 </html>
