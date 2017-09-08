@@ -1,28 +1,29 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-/*divÈÝÆ÷*/
-.container{
+/*divå®¹å™¨*/
+.container {
     margin: 100px;
-    background-color:red;
     padding: 50px;
+    background-color: red;
 }
 
-/*Íâ±ß¿ò*/
+/*å¤–è¾¹æ¡†*/
 .border{
-    border-style: groove;
     background: green;
+    border-style: groove;
     padding:50px;
 }
 
-/*ÄÚÌî³ä*/
+/*å†…å¡«å……*/
 .padding{
     background-color: blue;
-	padding: 50px;
+    padding: 50px;
 }
 
-/*ÄÚÈÝÇø*/
+/*å†…å®¹åŒº*/
 .content{
     background-color:yellow;
     padding: 50px;
