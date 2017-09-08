@@ -2,50 +2,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>左右固定中间自适应的三列布局</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,
+    user-scalable=no">
+    <title>两列居中自适应布局</title>
     <style>
-        body{
+        body {
             margin: 0;
             padding: 0;
             font-size: 30px;
             font-weight: bold;
         }
 
-        .left,
         .main,
+        .left,
         .right {
-            line-height:50px;
-            text-align:center;
-        }
-
-        .left {
-            width: 240px;
-            height: 600px;
-            background: #ccc;
-            position: absolute;
-            left: 0;
-            top:0
+            line-height: 50px;
+            text-align: center;
         }
 
         .main {
+            width: 80%;
             height: 600px;
-            margin: 0 240px;
-            background: #9CF
+            margin:0 auto
+        }
+
+        .left {
+            width: 20%;
+            height: 600px;
+            background: #ccc;
+            float: left;
         }
 
         .right {
-            width: 240px;
+            width: 80%;
             height: 600px;
-            position: absolute;
-            top: 0;
-            right: 0;
             background: #FCC;
+            float: right;
         }
     </style>
 </head>
 <body>
-    <div class="left">left</div>
-    <div class="main">main</div>
-    <div class="right">right</div>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
 </body>
 </html>
