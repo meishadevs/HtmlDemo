@@ -1,57 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0
-     user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale-1.0, minimum-scale=1.0, user-scalable=no">
     <title>三列布局</title>
-    <style type="text/css">
-        *{
-            margin: 0;
-            padding: 0;
-        }
-
-        html,
-        body,
-        .wrapper {
-            width: 100%;
-            height: 100%;
-        }
-
-        .wrapper {
-            position: relative;
-        }
-
-        .left{
-            width: 15%;
-            height: 100%;
-            background: #ccc;
-            position: absolute;
-            left:0;
-            top:0
-        }
-
-        .main{
-            height: 100%;
-            line-height: 50px;
-            margin: 0 23% 0 16%;
-            background: #9CF;
-        }
-
-        .right{
-            width: 22%;
-            height: 100%;
-            background: #FCC;
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="container">
         <div class="left">left</div>
-        <div class="main">设计首页的第一步是设计版面布局。就象传统的报刊杂志编辑一样，我们将网页看作一张报纸，一本杂志来进行排版布局。 虽然动态网页技术的发展使得我们开始趋向于学习场景编剧，但是固定的网页版面设计基础依然是必须学习和掌握的。它们的基本原理是共通的，你可以领会要点，举一反三。</div>
+        <div class="content">设计首页的第一步是设计版面布局。就象传统的报刊杂志编辑一样，我们将网页看作一张报纸，一本杂志来进行排版布局。 虽然动态网页技术的发展使得我们开始趋向于学习场景编剧，但是固定的网页版面设计基础依然是必须学习和掌握的。它们的基本原理是共通的，你可以领会要点，举一反三。</div>
         <div class="right">right</div>
     </div>
 </body>
