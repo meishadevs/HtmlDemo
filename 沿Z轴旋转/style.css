@@ -1,0 +1,28 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title,
+.box {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 330px;
+    height: 227px;
+    margin: 0 auto;
+}
+
+.box:hover img {
+    transition: all 2s;
+    transform: rotateZ(360deg);
+    transform-origin: 0 0;
+}

@@ -1,0 +1,27 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title,
+.box {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.box:hover {
+    transition: all 2s;
+    transform: rotate(360deg);
+}
