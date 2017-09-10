@@ -7,9 +7,6 @@
 - **[三列布局](./%E4%B8%89%E5%88%97%E5%B8%83%E5%B1%80/index.html)**
 - **[从psd到html](./%E4%BB%8Epsd%E5%88%B0html/index.html)**
 - **[使用CSS实现瀑布流](./%E4%BD%BF%E7%94%A8CSS%E5%AE%9E%E7%8E%B0%E7%80%91%E5%B8%83%E6%B5%81/index.html)**
-- **[使用rotateX实现的效果](./%E4%BD%BF%E7%94%A8rotateX%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%95%88%E6%9E%9C/index.html)**
-- **[使用rotateY实现的效果](./%E4%BD%BF%E7%94%A8rotateY%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%95%88%E6%9E%9C/index.html)**
-- **[使用rotate实现旋转效果](./%E4%BD%BF%E7%94%A8rotate%E5%AE%9E%E7%8E%B0%E6%97%8B%E8%BD%AC%E6%95%88%E6%9E%9C/index.html)**
 - **[使用skew实现倾斜效果](./%E4%BD%BF%E7%94%A8skew%E5%AE%9E%E7%8E%B0%E5%80%BE%E6%96%9C%E6%95%88%E6%9E%9C/index.html)**
 - **[使用translate实现移动效果](./%E4%BD%BF%E7%94%A8translate%E5%AE%9E%E7%8E%B0%E7%A7%BB%E5%8A%A8%E6%95%88%E6%9E%9C/index.html)**
 - **[内联框架](./%E5%86%85%E8%81%94%E6%A1%86%E6%9E%B6/index01.html)**
@@ -30,6 +27,10 @@
 - **[新手引导页](./%E6%96%B0%E6%89%8B%E5%AF%BC%E8%88%AA%E8%AF%BE%E7%A8%8B%E6%BA%90%E4%BB%A3%E7%A0%81/demo3.html)**
 - **[极客学院案例](./%E6%9E%81%E5%AE%A2%E5%AD%A6%E9%99%A2%E6%A1%88%E4%BE%8B/index.html)**
 - **[水平导航栏](./%E6%B0%B4%E5%B9%B3%E5%AF%BC%E8%88%AA%E6%A0%8F/index.html)**
+- **[沿X轴旋转](http://meishadevs.com/HtmlDemo/%E6%B2%BFX%E8%BD%B4%E6%97%8B%E8%BD%AC/)**
+- **[沿Y轴旋转](http://meishadevs.com/HtmlDemo/%E6%B2%BFY%E8%BD%B4%E6%97%8B%E8%BD%AC/)**
+- **[沿Z轴旋转](http://meishadevs.com/HtmlDemo/%E6%B2%BFZ%E8%BD%B4%E6%97%8B%E8%BD%AC/)**
+- **[沿中心点旋转](http://meishadevs.com/HtmlDemo/%E6%B2%BF%E4%B8%AD%E5%BF%83%E7%82%B9%E6%97%8B%E8%BD%AC/)**
 - **[照片墙](./%E7%85%A7%E7%89%87%E5%A2%99/index.html)**
 - **[爱心表白动画](./%E7%88%B1%E5%BF%83%E8%A1%A8%E7%99%BD%E5%8A%A8%E7%94%BB/index.html)**
 - **[盒模型](./%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B.html)**
