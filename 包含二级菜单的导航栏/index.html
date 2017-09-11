@@ -48,10 +48,10 @@
                     var This = oSubNav;
 
                     //移除定时器
-                    clearInterval(This.time);
+                    clearInterval(This.timer);
 
                     //创建一个每30毫秒调用一次的定时器
-                    This.time = setInterval(function() {
+                    This.timer = setInterval(function() {
 
                             //定时器每调用一次，ul标签的高度增加16px
                             This.style.height = This.offsetHeight + 16 + "px";
@@ -60,7 +60,7 @@
                             if(This.offsetHeight >= 120) {
 
                                 //移除定时器
-                                clearInterval(This.time);
+                                clearInterval(This.timer);
                                 This.style.height = '120px';
                             }
                         },
@@ -81,10 +81,10 @@
                     var This = oSubNav;
 
                     //移除定时器
-                    clearInterval(This.time);
+                    clearInterval(This.timer);
 
                     //创建一个每隔30毫秒调用一次的定时器
-                    This.time = setInterval(function() {
+                    This.timer = setInterval(function() {
 
                             //定时器每调用一次,ul标签的高度减少16px
                             This.style.height = This.offsetHeight - 16 + "px";
@@ -95,7 +95,7 @@
                             if(This.offsetHeight <= 8) {
 
                                 //移除定时器
-                                clearInterval(This.time);
+                                clearInterval(This.timer);
                                 This.style.height = '0';
                             }
                         },
