@@ -89,10 +89,8 @@
                             //定时器每调用一次,ul标签的高度减少16px
                             This.style.height = This.offsetHeight - 16 + "px";
 
-                            console.log('height:', This.offsetHeight);
-
                             //当ul标签的高度小于等于0的时候
-                            if(This.offsetHeight <= 8) {
+                            if(This.offsetHeight <= 120 % 16) {
 
                                 //移除定时器
                                 clearInterval(This.timer);
