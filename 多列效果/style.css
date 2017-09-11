@@ -1,13 +1,13 @@
-.div1{
-    /*列的数量*/
+.box {
+    /* 鍒楁暟 */
     column-count: 4;
     -webkit-column-count: 4;
 
-    /*每两列之间的间隔*/
+    /* 鍒椾笌鍒椾箣闂寸殑闂磋窛 */
     column-gap: 30px;
     -webkit-column-gap: 30px;
 
-	/*设置间隔线的宽度为5px，间隔线的颜色为红色*/
+    /* 璁剧疆闂撮殧绾跨殑瀹藉害銆佹牱寮忓拰棰滆壊 */
     column-rule: 5px outset red;
     -webkit-column-rule: 5px outset red;
 }
