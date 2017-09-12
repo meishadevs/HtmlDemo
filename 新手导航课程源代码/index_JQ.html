@@ -1,64 +1,198 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<style>
-*{ margin:0; padding:0}
-html{ height:100%}
-body{ background:url(images/body.png) center top; height:100%}
-#mask{ height:100%; width:100%; background:#000; opacity:0.5; filter:alpha(opacity=50); position:absolute; left:0; top:0; display:none}
-#searchTip{ width:980px; height:800px; margin:0 auto; position:relative; display:none}
-#searchTip div{ position:absolute; display:none }
-#searchTip div a{ position:absolute;width:96px; height:32px; cursor:pointer; text-indent:-999px; overflow:hidden}
-#searchTip div span{cursor:pointer; position:absolute; width:30px; height:30px;text-indent:-999px; overflow:hidden}
-.stepA{ background:url(images/guide11.png); height:329px; width:745px; top:130px; left:-9px; display:block}
-.stepA a{top:230px; left:490px; }
-.stepA span{ top:143px; right:32px; }
-.stepB{ background:url(images/guide21.png); width:647px; height:405px;top:2px; left:324px}
-.stepB a{top:308px; left:146px;}
-.stepB span{ top:196px; right:285px; }
-.stepC{ background:url(images/guide31.png); width:654px; height:257px;top:294px; left:318px}
-.stepC a{top:155px; left:400px; }
-.stepC span{ top:44px; right:35px; }
-.stepD{ background:url(images/guide41.png); width:558px; height:348px;top:78px; left:155px}
-.stepD a{top:246px; left:304px;}
-.stepD span{ top:135px; right:35px; }
-.stepE{ background:url(images/guide51.png); width:397px; height:342px;top:79px; left:250px}
-.stepE a{top:245px; left:153px;}
-</style>
-<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	//读取cookie
-	var res=document.cookie.substring(5);
-	alert("当前cookies="+"("+res+")");
-	
-	//判断是否来过
-	if(res!="www.open.com.cn"){
-		alert("没有登录过");
-		$('#mask, #searchTip, #searchTip div:eq(0)' ).show();
-		$('#searchTip div a').click(function(){
-			var currentStep=$(this).parent();
-			currentStep.hide();
-			currentStep.next().show();
-		})
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>无标题文档</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
 
-		$('#searchTip div a:last, #searchTip div span').click(function(){
-			$('#mask, #searchTip').hide();
-		})
-		//添加cookie
-		var oDate=new Date();
-		oDate.setDate(oDate.getDate()+30);
-		document.cookie="name=www.open.com.cn;expires="+oDate;
-	}
+        html {
+            height: 100%
+        }
+
+        body {
+            height: 100%;
+            background: url(images/body.png) center top;
+        }
+
+        #mask {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        #searchTip {
+            width: 980px;
+            height: 800px;
+            margin: 0 auto;
+            display: none;
+            position: relative;
+        }
+
+        #searchTip div {
+            display: none;
+            position: absolute;
+        }
+
+        #searchTip div a {
+            width: 96px;
+            height: 32px;
+            cursor: pointer;
+            text-indent: -999px;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        #searchTip div span {
+            width: 30px;
+            height: 30px;
+            text-indent: -999px;
+            overflow: hidden;
+            cursor: pointer;
+            position: absolute;
+        }
+
+        .stepA {
+            width: 745px;
+            height: 329px;
+            background: url(images/guide11.png);
+            display: block;
+            top: 130px;
+            left: -9px;
+        }
+
+        .stepA a {
+            top: 230px;
+            left: 490px;
+        }
+
+        .stepA span {
+            top: 143px;
+            right: 32px;
+        }
+
+        .stepB {
+            width: 647px;
+            height: 405px;
+            background: url(images/guide21.png);
+            top: 2px;
+            left: 324px
+        }
+
+        .stepB a {
+            top: 308px;
+            left: 146px;
+        }
+
+        .stepB span {
+            top: 196px;
+            right: 285px;
+        }
+
+        .stepC {
+            width: 654px;
+            height: 257px;
+            background: url(images/guide31.png);
+            top: 294px;
+            left: 318px
+        }
+
+        .stepC a {
+            top: 155px;
+            left: 400px;
+        }
+
+        .stepC span {
+            top: 44px;
+            right: 35px;
+        }
+
+        .stepD {
+            width: 558px;
+            height: 348px;
+            background: url(images/guide41.png);
+            top: 78px;
+            left: 155px
+        }
+
+        .stepD a {
+            top: 246px;
+            left: 304px;
+        }
+
+        .stepD span {
+            top: 135px;
+            right: 35px;
+        }
+
+        .stepE {
+            width: 397px;
+            height: 342px;
+            background: url(images/guide51.png);
+            top: 79px;
+            left: 250px
+        }
+
+        .stepE a {
+            top: 245px;
+            left: 153px;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //读取cookie
+            var res = document.cookie.substring(5);
+            alert("当前cookies=" + "(" + res + ")");
+
+            //判断是否来过
+            if (res != "www.open.com.cn") {
+
+                alert("没有登录过");
+
+                //显示第一步提示框中的内容
+                $('#mask, #searchTip, #searchTip div:eq(0)').show();
+
+                //当用户点击下一步按钮
+                $('#searchTip div a').click(function () {
+
+                    //获得当前步骤提示框
+                    var currentStep = $(this).parent();
+
+                    //隐藏当前步骤提示框
+                    currentStep.hide();
+
+                    //显示当前步骤的下一步提示框
+                    currentStep.next().show();
+                });
+
+                //当用户点击了关闭按钮
+                $('#searchTip div a:last, #searchTip div span').click(function () {
+
+                    //隐藏半透明的遮罩层
+                    //隐藏提示用户操作下一步的提示框
+                    $('#mask, #searchTip').hide();
+                });
+
+                //添加cookie
+                var oDate = new Date();
+                oDate.setDate(oDate.getDate() + 30);
+                document.cookie = "name=www.open.com.cn;expires=" + oDate;
+            }
 
 
-})
-</script>
-
-
-
+        })
+    </script>
 
 
 </head>
@@ -66,7 +200,7 @@ $(function(){
 <body>
 <div id="mask"></div>
 <div id="searchTip">
-	<div class="stepA"><a>下一步</a><span title="关闭">关闭</span></div>
+    <div class="stepA"><a>下一步</a><span title="关闭">关闭</span></div>
     <div class="stepB"><a>下一步</a><span title="关闭">关闭</span></div>
     <div class="stepC"><a>下一步</a><span title="关闭">关闭</span></div>
     <div class="stepD"><a>下一步</a><span title="关闭">关闭</span></div>
