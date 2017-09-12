@@ -3,20 +3,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>无标题文档</title>
+    <title>新手引导页</title>
     <style>
         * {
             margin: 0;
-            padding: 0
+            padding: 0;
         }
 
-        html {
-            height: 100%
+        html,
+        body {
+            width: 100%;
         }
 
         body {
-            height: 100%;
-            background: url(images/body.png) center top;
+            background: url(images/body.png) center top no-repeat;
         }
 
         #mask {
@@ -27,16 +27,17 @@
             filter: alpha(opacity=50);
             display: none;
             position: fixed;
-            left: 0;
             top: 0;
+            left: 0;
         }
 
         #searchTip {
             width: 980px;
             height: 800px;
-            margin: 0 auto;
+            margin-left: -490px;
             display: none;
-            position: relative;
+            position: absolute;
+            left: 50%;
         }
 
         #searchTip div {
@@ -45,17 +46,17 @@
         }
 
         #searchTip div a {
-            width: 96px;
+            width: 95px;
             height: 32px;
-            cursor: pointer;
             text-indent: -999px;
             overflow: hidden;
+            cursor: pointer;
             position: absolute;
         }
 
         #searchTip div span {
-            width: 30px;
             height: 30px;
+            width: 30px;
             text-indent: -999px;
             overflow: hidden;
             cursor: pointer;
@@ -66,19 +67,18 @@
             width: 745px;
             height: 329px;
             background: url(images/guide11.png);
-            display: block;
-            top: 130px;
-            left: -9px;
-        }
-
-        .stepA a {
-            top: 230px;
-            left: 490px;
+            top: 131px;
+            left: -9px
         }
 
         .stepA span {
-            top: 143px;
-            right: 32px;
+            top: 144px;
+            left: 683px
+        }
+
+        .stepA a {
+            top: 231px;
+            left: 490px
         }
 
         .stepB {
@@ -104,7 +104,7 @@
             height: 257px;
             background: url(images/guide31.png);
             top: 294px;
-            left: 318px
+            left: 318px;
         }
 
         .stepC a {
@@ -122,7 +122,7 @@
             height: 348px;
             background: url(images/guide41.png);
             top: 78px;
-            left: 155px
+            left: 155px;
         }
 
         .stepD a {
@@ -140,7 +140,7 @@
             height: 342px;
             background: url(images/guide51.png);
             top: 79px;
-            left: 250px
+            left: 250px;
         }
 
         .stepE a {
@@ -148,60 +148,99 @@
             left: 153px;
         }
     </style>
-    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            //读取cookie
-            var res = document.cookie.substring(5);
-            alert("当前cookies=" + "(" + res + ")");
-
-            //判断是否来过
-            if (res != "www.open.com.cn") {
-
-                alert("没有登录过");
-
-                //显示第一步提示框中的内容
-                $('#mask, #searchTip, #searchTip div:eq(0)').show();
-
-                //当用户点击下一步按钮
-                $('#searchTip div a').click(function () {
-
-                    //获得当前步骤提示框
-                    var currentStep = $(this).parent();
-
-                    //隐藏当前步骤提示框
-                    currentStep.hide();
-
-                    //显示当前步骤的下一步提示框
-                    currentStep.next().show();
-                });
-
-                //当用户点击了关闭按钮
-                $('#searchTip div a:last, #searchTip div span').click(function () {
-
-                    //隐藏半透明的遮罩层
-                    //隐藏提示用户操作下一步的提示框
-                    $('#mask, #searchTip').hide();
-                });
-
-                //添加cookie
-                var oDate = new Date();
-                oDate.setDate(oDate.getDate() + 30);
-                document.cookie = "name=www.open.com.cn;expires=" + oDate;
-            }
-
-
-        })
-    </script>
 </head>
 <body>
-<div id="mask"></div>
-<div id="searchTip">
-    <div class="stepA"><a>下一步</a><span title="关闭">关闭</span></div>
-    <div class="stepB"><a>下一步</a><span title="关闭">关闭</span></div>
-    <div class="stepC"><a>下一步</a><span title="关闭">关闭</span></div>
-    <div class="stepD"><a>下一步</a><span title="关闭">关闭</span></div>
-    <div class="stepE"><a>下一步</a></div>
-</div>
+    <div id="mask"></div>
+    <div id="searchTip">
+        <div class="stepA"><a>下一步</a><span title="关闭">关闭</span></div>
+        <div class="stepB"><a>下一步</a><span title="关闭">关闭</span></div>
+        <div class="stepC"><a>下一步</a><span title="关闭">关闭</span></div>
+        <div class="stepD"><a>下一步</a><span title="关闭">关闭</span></div>
+        <div class="stepE"><a>下一步</a><span title="关闭">关闭</span></div>
+    </div>
+    <script>
+        //获得半透明的遮罩层
+        var oMask = document.querySelector('#mask');
+
+        //获得提示用户点击按钮进入下一步的提示框
+        var oSearch = document.querySelector('#searchTip');
+
+        //获得所有提示框中的内容
+        var aStep = oSearch.getElementsByTagName('div');
+
+        //获得每一步提示框中的下一步按钮
+        var aA = oSearch.getElementsByTagName('a');
+
+        //获得每一步提示框中的关闭按钮
+        var aClose = oSearch.getElementsByTagName('span');
+
+        //读取cookie
+        var res = document.cookie.substring(5);
+        alert(res);
+
+        //如果没有cookie，执行以下动作
+        if (res != "www.open.com.cn") {
+
+            alert(res)
+
+            //显示半透明的遮罩层
+            oMask.style.display = 'block';
+
+            //显示下一步提示框
+            oSearch.style.display = 'block';
+
+            //显示第一步提示框中的内容
+            aStep[0].style.display = 'block';
+
+            //遍历所有步骤
+            for (var i = 0; i < aStep.length; i++) {
+
+                //为每一个下一步按钮增加一个index属性
+                aA[i].index = i;
+
+                //当用户点击下一步按钮
+                aA[i].onclick = function () {
+
+                    //隐藏当前步骤提示框
+                    this.parentNode.style.display = "none";
+
+                    //如果当前向用户展示的步骤不是最后一步
+                    if (this.index < aStep.length - 1) {
+
+                        //显示当前步骤的下一步提示框
+                        aStep[this.index + 1].style.display = "block";
+                    }
+
+                    //如果当前向用户展示的操作步骤是最后一步
+                    else if (this.index == aStep.length - 1) {
+
+                        //隐藏半透明的遮罩层
+                        oMask.style.display = 'none';
+
+                        //隐藏提示用户操作下一步的提示框
+                        oSearch.style.display = "none";
+                    }
+                }
+            }
+
+            //遍历说有关闭按钮
+            for (var i = 0; i < aClose.length; i++) {
+
+                //当用户点击了关闭按钮
+                aClose[i].onclick = function () {
+
+                    //隐藏半透明的遮罩层
+                    oMask.style.display = 'none';
+
+                    //隐藏提示用户操作下一步的提示框
+                    oSearch.style.display = "none";
+                }
+            }
+            //添加cookie
+            var oDate = new Date();
+            oDate.setDate(oDate.getDate() + 30);
+            document.cookie = "name=www.open.com.cn;expires=" + oDate;
+        }
+    </script>
 </body>
 </html>
