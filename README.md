@@ -26,7 +26,8 @@
 - **[带有jQuery动画的水平导航菜单](http://meishadevs.com/HtmlDemo/%E5%AF%BC%E8%88%AA%E6%9D%A1%E8%8F%9C%E5%8D%95%E5%88%B6%E4%BD%9C/06%20JQ%E5%8A%A8%E7%94%BB%E6%B0%B4%E5%B9%B3%E8%8F%9C%E5%8D%95.html)**
 - **[微博对话框](http://meishadevs.com/HtmlDemo/%E5%BE%AE%E5%8D%9A%E5%AF%B9%E8%AF%9D%E6%A1%86/index.html)**
 - **[打地鼠游戏](http://meishadevs.com/HtmlDemo/%E6%89%93%E5%9C%B0%E9%BC%A0%E6%B8%B8%E6%88%8F%E4%BB%A3%E7%A0%81/index.html)**
-- **[新手引导页](http://meishadevs.com/HtmlDemo/%E6%96%B0%E6%89%8B%E5%AF%BC%E8%88%AA%E8%AF%BE%E7%A8%8B%E6%BA%90%E4%BB%A3%E7%A0%81/index_js.html)**
+- **[新手引导页js版](http://meishadevs.com/HtmlDemo/%E6%96%B0%E6%89%8B%E5%AF%BC%E8%88%AA%E8%AF%BE%E7%A8%8B%E6%BA%90%E4%BB%A3%E7%A0%81/index_js.html)**
+- **[新手引导页jQuery版](http://meishadevs.com/HtmlDemo/%E6%96%B0%E6%89%8B%E5%AF%BC%E8%88%AA%E8%AF%BE%E7%A8%8B%E6%BA%90%E4%BB%A3%E7%A0%81/index_JQ.html)**
 - **[极客学院案例](http://meishadevs.com/HtmlDemo/%E6%9E%81%E5%AE%A2%E5%AD%A6%E9%99%A2%E6%A1%88%E4%BE%8B/index.html)**
 - **[水平导航栏](http://meishadevs.com/HtmlDemo/%E6%B0%B4%E5%B9%B3%E5%AF%BC%E8%88%AA%E6%A0%8F/index.html)**
 - **[沿X轴旋转](http://meishadevs.com/HtmlDemo/%E6%B2%BFX%E8%BD%B4%E6%97%8B%E8%BD%AC/)**
