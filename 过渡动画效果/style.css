@@ -1,40 +1,17 @@
-div{
+
+.box {
     width: 100px;
     height: 100px;
+    line-height: 100px;
+    text-align: center;
     background-color: blue;
-
-    -webkit-transition: width 2s, height 2s, webkit-transform 2s;
-    transition: width 2s, height 2s, transform 2s;
+    transition: all 2s;
 }
 
- /*
-    当鼠标放在div上的时候,同时将div的宽度变为200px，将div的高度变为200px，将div旋转360度
-    */
-div:hover{
+.box:hover {
     width: 200px;
     height: 200px;
+    line-height: 200px;
+    text-align: center;
     transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
