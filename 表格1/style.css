@@ -1,19 +1,17 @@
-#tb, tr, td, th{
-	
-	/*创建一个宽度为1px颜色为蓝色的边框*/
-    border: 1px solid blue;
-	
-	/*设置表格中的文字居中显示*/
-    text-align: center;
-	
-	/*设置表格的背景颜色*/
-    background-color: aqua;
-}
 
-#tb{
+table {
     width: 400px;
     height: 400px;
-	
-	/*合并表格中的边框*/
+    background-color: #00FFFF;
+    text-align: center;
+
+    /* 合并单元格 */
     border-collapse: collapse;
 }
+
+table,
+th,
+td {
+    border: solid 1px #0050AF;
+}
+
