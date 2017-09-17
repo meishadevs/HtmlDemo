@@ -1,12 +1,12 @@
-p{
-    border-radius: 10px;
+p {
     width: 100px;
     background-color: aqua;
     text-align: center;
     border-style: solid;
+    border-radius: 10px;
 }
 
-.cssid{
+.cssid {
     width: 100px;
     height: 100px;
     background-color: blue;
