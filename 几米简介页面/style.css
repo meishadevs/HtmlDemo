@@ -1,101 +1,92 @@
-*{
-    padding: 0px;
-    margin: 0px;
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.body{
-    width: 770px;
-    height: 735px;
-    background: #badbdb;
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 762px;
+    height: 739px;
+    padding: 4px 8px 0 8px;
     margin: 0 auto;
-    padding: 4px;
+    background-color: #BADBDB;
 }
 
-.body_title{
+.header {
     width: 762px;
     height: 92px;
-    margin: 0 auto;
-    background: url("images/banner.gif");
-    background-repeat: no-repeat;
+    background: url("./images/header.gif") no-repeat;
 }
 
-.title_bar{
-    float: right;
-    color: white;
+.header .nav {
+    margin-top: 5px;
+    color: #fff;
     font-size: 12px;
+    float: right;
 }
 
-/*
-    a:link 链接未被访问
-    a:visited 链接已被访问
-*/
-.title_bar a:link, .title_bar a:visited{
-    color: white;
-    text-decoration: none;
+.header .nav li {
+    display: inline-block;
 }
 
-/*
-    a:hover 鼠标放在链接上的时候
-    a:active 链接被点击时候
-*/
-.title_bar a:hover, .title_bar a:active{
+.header .nav a:hover {
     text-decoration: underline;
 }
 
-.body_content{
-    background: url("images/t_profile.gif");
-    background-repeat: no-repeat;
+.content {
     width: 762px;
-    height: 470px;
-    margin: 10px 4px 0px;
-    background-color:#eff9f9;
+    height: 466px;
+    margin-top: 10px;
+    background: url("./images/t_profile.gif") no-repeat;
+    background-color: #EFF9F9;
 }
 
-.body_content h2{
-    font-size: 15px;
-    padding: 45px 0px 10px 10px;
-    color:#346667;
+.content .title {
+    padding: 45px 0 24px 13px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #346667;
 }
 
-.body_content p{
+.content .text {
+    line-height: 24px;
+    padding-left: 8px;
+    margin-bottom: 8px;
     text-indent: 2em;
     font-size: 12px;
-    margin: 10px;
     color: #346667;
-    line-height: 2em;
 }
 
-.body_book{
-    background: url("images/t_book.gif");
-    background-repeat: no-repeat;
-    width: 765px;
+.book-list {
+    width: 707px;
     height: 100px;
-    margin-top: 10px;
-    padding-top: 50px;
-    background-color:#eff9f9;
+    padding: 46px 0 0 55px;
+    margin-top: 14px;
+    background: url("./images/t_book.gif") no-repeat;
+    background-color: #EFF9F9;
 }
 
-.body_book ul{
-    list-style-type: none;
-    margin-left: 30px;
+.book li {
+    width: 80px;
+    height: 80px;
+    margin-right: 33px;
+    border: solid 1px #A9A9A9;
+    float: left;
 }
 
-li{
-    display: inline;
-}
-
-li a{
-    margin-left: 25px;
-}
-
-li a img{
-    border: 1px solid darkgray;
-}
-
-.foot{
-    width: 770px;
-    margin: 20px auto;
+.footer {
+    height: 54px;
+    line-height: 54px;
+    color: #A9A9A9;
     text-align: center;
-    color: darkgray;
     font-size: 12px;
 }
