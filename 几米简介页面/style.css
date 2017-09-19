@@ -24,7 +24,7 @@ a {
 .header {
     width: 762px;
     height: 92px;
-    background: url("./images/header.gif") no-repeat;
+    background: url("./images/banner.gif") no-repeat;
 }
 
 .header .nav {
