@@ -1,60 +1,68 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>混合自适应布局</title>
     <style>
-        body {
-            margin: 0;
+
+        * {
             padding: 0;
+            margin: 0;
+        }
+
+        body {
             font-size: 30px;
-            font-weight: bold
-        }
-
-        div {
             text-align: center;
-            line-height: 50px;
         }
 
-        .head {
+        .header {
+            width: 100%;
             height: 100px;
-            background: #9CF
+            background-color: #99CCFF;
+        }
+
+        .content {
+            width: 100%;
+            height: 600px;
         }
 
         .left {
             width: 20%;
-            height: 600px;
-            background: #ccc;
-            float: left
+            height: 100%;
+            background-color: #CCCCCC;
+            float: left;
         }
 
         .main {
-            margin: 0 20%;
-            height: 600px;
-            background: #9CC
+            width: 60%;
+            height: 100%;
+            background-color: #99CCCC;
+            float: left;
         }
 
         .right {
             width: 20%;
-            height: 600px;
-            background: #FCC;
-            float: right
+            height: 100%;
+            background-color: #FFCCCC;
+            float: left;
         }
 
         .footer {
+            width: 100%;
             height: 50px;
-            background: #9F9;
-            clear: both
+            background-color: #99FF99;
         }
     </style>
 </head>
-
 <body>
-<div class="head">head</div>
-<div class="left">left</div>
-<div class="right">right</div>
-<div class="main">main</div>
-<div class="footer">footer</div>
+    <div class="header">header</div>
+    <div class="content">
+        <div class="left">left</div>
+        <div class="main">main</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
 </body>
 </html>
