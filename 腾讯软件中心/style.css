@@ -213,16 +213,15 @@ ul {
 }
 
 .sidebar h4 {
-    padding-bottom: 5px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-bottom: 1px solid #cce6f5;
 }
 
 .newslist li {
+    height: 20px;
     line-height: 20px;
     font-size: 13px;
-    height: 20px;
 }
 
 .newslist a {
