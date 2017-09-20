@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -11,19 +12,23 @@ ul {
     list-style: none;
 }
 
+.fl {
+    float: left;
+}
+
 .container {
     width: 910px;
     margin: 0 auto;
 }
 
-.head-title {
+.header-title {
     width: 100%;
     margin-top: 5px;
     overflow: hidden;
 }
 
 /* logo的CSS样式 */
-.head-title a {
+.header-title a {
     width: 217px;
     height: 63px;
     background: url("images/logo.gif");
@@ -31,24 +36,24 @@ ul {
     float: left;
 }
 
-.head-title dl {
+.header-title dl {
     padding-top: 10px;
     float: right;
 }
 
-.head-title dl dt {
+.header-title dl dt {
     line-height: 26px;
     font-weight: bold;
     color: #5a5a5a;
 }
 
-.head-title dl dd {
+.header-title dl dd {
     line-height: 24px;
     font-size: 12px;
     color: #828282;
 }
 
-.head-nav {
+.header-nav {
     width: 910px;
     height: 36px;
     margin-top: 5px;
@@ -56,13 +61,13 @@ ul {
     background-repeat: no-repeat;
 }
 
-.head-nav ul {
+.header-nav ul {
     width: 94%;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.head-nav li {
+.header-nav li {
     line-height: 34px;
     margin: 0 20px;
     font-size: 16px;
@@ -70,13 +75,13 @@ ul {
     float: left;
 }
 
-.head-nav a {
+.header-nav a {
     text-decoration: none;
     color: white;
 }
 
 /*首页的CSS样式*/
-.head-nav li.firstpage {
+.header-nav li.active {
     width: 88px;
     background: url("images/home.gif");
     background-position: 0px 4px;
@@ -84,11 +89,11 @@ ul {
     text-align: center;
 }
 
-.head-nav .firstpage a {
+.header-nav .active a {
     color: black;
 }
 
-.head-nav .QQ-lab {
+.header-nav .QQ-lab {
     padding-left: 20px;
     background: url("images/arrow_r.gif");
     background-repeat: no-repeat;
@@ -138,6 +143,7 @@ ul {
 }
 
 .softwarelist li {
+    height: 40px;
     margin-bottom: 15px;
 }
 
@@ -161,7 +167,6 @@ ul {
 }
 
 .download {
-    margin-top: -30px;
     font-size: 10px;
     float: right;
 }
@@ -349,7 +354,7 @@ ul {
     margin-top: 10px;
 }
 
-.partner h5 {
+.partner .partner-title {
     padding-bottom: 5px;
     border-bottom: 1px solid #cce6f5;
 }
@@ -363,20 +368,6 @@ td {
     font-size: 12px;
 }
 
-.foot {
-    width: 100%;
-    height: 80px;
-    background-color: #F8F8F8;
-    border: 1px solid #E6E6E6;
-}
-
-.foot .p1 {
-    line-height: 40px;
-    color: darkgray;
-    text-align: center;
-    font-size: 10px;
-}
-
 table a {
     text-decoration: none;
 }
@@ -385,8 +376,17 @@ table a:hover {
     text-decoration: underline;
 }
 
-.foot .p2 {
-    font-size: 10px;
-    text-align: center;
+.footer {
+    width: 100%;
+    height: 80px;
     color: darkgray;
+    background-color: #F8F8F8;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid #E6E6E6;
+}
+
+.footer .copyright {
+    height: 40px;
+    line-height: 40px;
 }
