@@ -6,14 +6,14 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-    <!-- 用于承载整个页面-->
+    <!-- 用于承载整个页面的容器 s -->
     <div class="container">
 
-        <!-- 头部-->
-        <div class="head">
+        <!-- 头部 s -->
+        <div class="header">
 
-            <!--位于头部的标题栏-->
-            <div class="head-title">
+            <!--位于头部的标题栏 s -->
+            <div class="header-title">
 
                 <!--标题栏中的logo-->
                 <a class="logo" href="#"></a>
@@ -25,11 +25,12 @@
                 </dl>
 
             </div>
+            <!-- 位于头部的标题栏 e -->
 
-            <!-- 位于头部的导航栏-->
-            <div class="head-nav">
+            <!-- 位于头部的导航栏 s -->
+            <div class="header-nav">
                 <ul>
-                    <li class="firstpage"><a href="#">首页</a></li>
+                    <li class="active"><a href="#">首页</a></li>
                     <li><a href="#">PC产品大全</a></li>
                     <li><a href="#">Mac产品大全</a></li>
                     <li><a href="#">无线产品大全</a></li>
@@ -37,17 +38,22 @@
                     <li class="QQ-lab"><a href="#">QQ实验室</a></li>
                 </ul>
             </div>
+            <!-- 位于头部的导航栏 e -->
 
         </div>
+        <!-- 头部 e -->
 
-        <!--中间的内容主体-->
+        <!--中间的内容主体 s -->
         <div class="body">
 
             <!--左侧的内容区-->
             <div class="content">
 
-                <!-- 最上面的那张大图-->
-                <img src="images/banner.png" width="600px" height="200px">
+                <!-- banner s -->
+                <div class="banner">
+                    <img src="images/banner.png">
+                </div>
+                <!-- banner e -->
 
                 <!-- 大图下面的文件介绍-->
                 <div class="introduce">
@@ -55,82 +61,73 @@
                     <a class="more" href="#">更多>></a>
                 </div>
 
-                <!-- 软件列表-->
-                <div class="softwarelist">
-                    <ul>
-
+                <!-- 软件列表 s -->
+                <ul class="softwarelist">
                         <li>
-                            <dl class="software_1">
+                            <dl class="software_1 fl">
                                 <dt><a class="new" href="#">QQ 5.2</a><span class="updatedate">更新日期：2014-03-17</span></dt>
                                 <dd>免费的即时通讯平台，带来更多沟通乐趣</dd>
                             </dl>
                             <span class="download">
-                                <a href="#"><img src="images/downicon.gif"></a>
-                                <a href="#">下载</a> | <a href="#">官方网站</a>
-                            </span>
+                                    <a href="#"><img src="images/downicon.gif"></a>
+                                    <a href="#">下载</a> | <a href="#">官方网站</a>
+                                </span>
                         </li>
-
                         <li>
-                            <dl class="software_2">
+                            <dl class="software_2 fl">
                                 <dt><a href="#">腾讯电脑管家</a><img class="new" src="images/new.gif"><span class="updatedate">更新日期：2014-01-15</span></dt>
                                 <dd>专业的免费杀毒软件，全面便捷管理电脑</dd>
                             </dl>
                             <span class="download">
-                                <a href="#"><img src="images/downicon.gif"></a>
-                                <a href="#">下载</a> | <a href="#">官方网站</a>
-                            </span>
+                                    <a href="#"><img src="images/downicon.gif"></a>
+                                    <a href="#">下载</a> | <a href="#">官方网站</a>
+                                </span>
                         </li>
-
                         <li>
-                            <dl class="software_3">
+                            <dl class="software_3 fl">
                                 <dt><a href="#" class="new">软件管理</a><span class="updatedate">更新日期：2014-03-19</span></dt>
                                 <dd>下载软件，就用软件管理</dd>
                             </dl>
                             <span class="download">
-                                <a href="#"><img src="images/downicon.gif"></a>
-                                <a href="#">下载</a> | <a href="#">官方网站</a>
-                            </span>
+                                    <a href="#"><img src="images/downicon.gif"></a>
+                                    <a href="#">下载</a> | <a href="#">官方网站</a>
+                                </span>
                         </li>
-
                         <li>
-                            <dl class="software_4">
+                            <dl class="software_4 fl">
                                 <dt><a href="#">QQ音乐2014贺岁版</a><img class="new" src="images/new.gif"><span class="updatedate">更新日期：2014-01-24</span></dt>
                                 <dd>全新界面设计，视野更开阔，操作更简单</dd>
                             </dl>
                             <span class="download">
-                                <a href="#"><img src="images/downicon.gif"></a>
-                                <a href="#">下载</a> | <a href="#">官方网站</a>
-                            </span>
+                                    <a href="#"><img src="images/downicon.gif"></a>
+                                    <a href="#">下载</a> | <a href="#">官方网站</a>
+                                </span>
                         </li>
-
                         <li>
-                            <dl class="software_5">
+                            <dl class="software_5 fl">
                                 <dt><a href="#" class="new">QQ浏览器</a><span class="updatedate">更新日期：2014-03-13</span></dt>
                                 <dd>全新设计，简约轻快，精巧易用</dd>
                             </dl>
                             <span class="download">
-                                <a href="#"><img src="images/downicon.gif"></a>
-                                <a href="#">下载</a> | <a href="#">官方网站</a>
-                            </span>
+                                    <a href="#"><img src="images/downicon.gif"></a>
+                                    <a href="#">下载</a> | <a href="#">官方网站</a>
+                                </span>
                         </li>
-
                         <li>
-                            <dl class="software_6">
+                            <dl class="software_6 fl">
                                 <dt><a href="#" class="new">QQ影像</a><span class="updatedate">更新日期：2013-01-24</span></dt>
                                 <dd>管理、浏览、编辑、上传一站体验</dd>
                             </dl>
                             <span class="download">
-                                <a href="#"><img src="images/downicon.gif"></a>
-                                <a href="#">下载</a> | <a href="#">官方网站</a>
-                            </span>
+                                    <a href="#"><img src="images/downicon.gif"></a>
+                                    <a href="#">下载</a> | <a href="#">官方网站</a>
+                                </span>
                         </li>
-
                     </ul>
-                </div>
-
+                <!-- 软件列表 e -->
             </div>
 
-            <!--右侧的侧边栏-->
+            <!-- 右侧的侧边栏 s -->
             <div class="sidebar">
 
                 <h4>最新动态</h4>
@@ -181,8 +178,7 @@
 
                 <!-- 合作伙伴-->
                 <div class="partner">
-                    <h5>合作伙伴</h5>
-
+                    <h5 class="partner-title">合作伙伴</h5>
                     <table>
                         <tr>
                             <td><a href="#">腾讯软件管理</a></td>
@@ -203,15 +199,19 @@
                 </div>
 
             </div>
+            <!-- 右侧的侧边栏 e -->
 
         </div>
+        <!-- 中间的内容主体 e -->
 
-        <!-- 脚部-->
-        <div class="foot">
-            <p class="p1">Copyright © 1998 - 2012 Tencent. All Rights Reserved.</p>
-            <p class="p2">  腾讯公司 版权所有</p>
+        <!-- 脚部 s -->
+        <div class="footer">
+            <p class="copyright">Copyright © 1998 - 2012 Tencent. All Rights Reserved.</p>
+            <p class="company">  腾讯公司 版权所有</p>
         </div>
+        <!-- 脚部 e -->
 
     </div>
+    <!-- 用于承载整个页面的容器 e -->
 </body>
 </html>
