@@ -16,6 +16,18 @@ ul {
     float: left;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
 .container {
     width: 910px;
     margin: 0 auto;
@@ -24,7 +36,6 @@ ul {
 .header-title {
     width: 100%;
     margin-top: 5px;
-    overflow: hidden;
 }
 
 /* logo的CSS样式 */
@@ -104,7 +115,6 @@ ul {
 .body {
     width: 100%;
     margin: 5px auto;
-    overflow: hidden;
 }
 
 .content {
@@ -143,7 +153,6 @@ ul {
 }
 
 .softwarelist li {
-    height: 40px;
     margin-bottom: 15px;
 }
 
@@ -262,10 +271,6 @@ ul {
 /* 推荐列表的CSS样式 */
 .recommendlist {
     margin-top: 20px;
-}
-
-.recommendlist li {
-    overflow:hidden;
 }
 
 .softname {
