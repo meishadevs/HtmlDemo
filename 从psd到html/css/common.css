@@ -1,18 +1,18 @@
 
-/*版心*/
+/* 鐗堝績 */
 .public-container {
     width: 1100px;
     margin: 0 auto;
 }
 
-/* 头部 s */
+/* 澶撮儴 s */
 .public-header {
     height: 110px;
 }
 
 .public-header .header-logo {
-    float: left;
     margin-top: 40px;
+    float: left;
 }
 
 .public-header .header-logo a {
@@ -22,14 +22,14 @@
 }
 
 .public-header .header-nav {
-    float: right;
     font-size: 14px;
+    float: right;
 }
 
 .public-header .header-nav .item {
-    float: left;
     margin-top: 44px;
     margin-left: 50px;
+    float: left;
 }
 
 .header-nav .item a {
@@ -40,7 +40,7 @@
     text-decoration: underline;
 }
 
-/* 头部 e */
+/* 澶撮儴 e */
 .public-footer {
     height: 217px;
     padding-top: 100px;
@@ -71,4 +71,4 @@
 .public-footer .footer-col a {
     color: #fff;
 }
-/* 脚部 */
+/* 鑴氶儴 */
