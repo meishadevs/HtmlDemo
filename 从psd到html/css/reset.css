@@ -16,46 +16,18 @@ a {
 
 img {
     border: none;
-
-    /*清除3像素的间距*/
     vertical-align: middle;
     display: block;
 }
 
-.clearfloat {
+.clearfix {
     zoom: 1;
 }
 
-.clearfloat:after {
+.clearfix:after {
     content: "";
     display: block;
     clear: both;
     height: 0;
-
-    /*隐藏元素，元素隐藏后会占用页面空间*/
     visibility: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
