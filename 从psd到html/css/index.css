@@ -1,3 +1,4 @@
+
 /* banner s */
 .index-banner {
     position: relative;
@@ -14,10 +15,10 @@
 }
 
 .index-banner-text {
+    margin-left: -388px;
     position: absolute;
     top: 210px;
     left: 50%;
-    margin-left: -388px;
 }
 
 .index-banner-text .text-logo {
@@ -36,8 +37,8 @@
 .index-banner-text .text-info .line {
     width: 40px;
     border: solid 1px #fff;
-    display: inline-block;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .index-banner-text .text-info .line-l {
@@ -49,10 +50,10 @@
 }
 /* banner e */
 
-/* 菜单 s */
+/* 鑿滃崟 s */
 .index-menu {
-    position: relative;
     border-top: solid 4px #f34949;
+    position: relative;
 }
 
 .index-menu .menu-tips {
@@ -72,14 +73,14 @@
 
 .index-menu .menu-tips:after {
     content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 0;
     height: 0;
     border-left: 78px solid transparent;
     border-right: 78px solid transparent;
     border-bottom: 10px solid #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .index-menu .menu-list {
@@ -93,10 +94,10 @@
 }
 
 .index-menu .menu-item {
-    float: left;
     width: 520px;
     margin-right: 60px;
     margin-bottom: 56px;
+    float: left;
 }
 
 .index-menu .menu-item .title,
@@ -146,43 +147,39 @@
     background: url("../images/icon.png") no-repeat;
     display: inline-block;
 }
-/* 菜单 e */
+/* 鑿滃崟 e */
 
-/* 面板 s */
+/* 闈㈡澘 s */
 .index-panel {
     margin-top: 200px;
 }
 
-.index-panel-header {
-
-}
-
 .index-panel-header h3 {
-    float: left;
     margin-right: 48px;
     font-size: 20px;
     color: #3b3b3b;
+    float: left;
 }
 
 .index-panel-header .line {
-    float: left;
     width: 200px;
     margin-top: 10px;
     border-top: 1px solid #e5e3e3;
+    float: left;
 }
 
 .index-panel-header .btn-group {
-    float: right;
     font-size: 0;
+    float: right;
 }
 
 .index-panel-header .btn {
-    display: inline-block;
     width: 9px;
     height: 9px;
     margin-left: 11px;
     background-color: #dedede;
     border-radius: 50%;
+    display: inline-block;
 }
 
 .index-panel-header .active {
@@ -202,9 +199,9 @@
 }
 
 .index-food-list .food-item {
-    float: left;
     width: 230px;
     margin-right: 60px;
+    float: left;
 }
 
 .index-food-list .food-item .banner {
@@ -213,9 +210,9 @@
 }
 
 .index-food-list .food-item .name {
+    margin-bottom: 10px;
     color: #555;
     font-size: 16px;
-    margin-bottom: 10px;
 }
 
 .index-food-list .food-item .price {
@@ -227,12 +224,12 @@
 }
 
 .index-food-list .food-item .star {
-    display: inline-block;
     width: 12px;
     height: 13px;
     margin-right: 6px;
     background-image: url("../images/star.png");
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .index-food-list .food-item .nostar {
@@ -267,28 +264,5 @@
 .index-pics .pic-col-l {
     width: 460px;
 }
-/* 面板 e */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 闈㈡澘 e */
