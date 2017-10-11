@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 li {
     list-style: none;
 }
@@ -14,23 +18,23 @@ a {
 }
 
 .container {
-    width: 762px;
-    height: 739px;
-    padding: 4px 8px 0 8px;
+    width: 76.2rem;
+    height: 73.9rem;
+    padding: 0.4rem 0.8rem 0 0.8rem;
     margin: 0 auto;
     background-color: #BADBDB;
 }
 
 .header {
-    width: 762px;
-    height: 92px;
+    width: 76.2rem;
+    height: 9.2rem;
     background: url("./images/banner.gif") no-repeat;
 }
 
 .header .nav {
-    margin-top: 5px;
+    margin-top: 0.5rem;
     color: #fff;
-    font-size: 12px;
+    font-size: 1.2rem;
     float: right;
 }
 
@@ -43,50 +47,50 @@ a {
 }
 
 .content {
-    width: 762px;
-    height: 466px;
-    margin-top: 10px;
+    width: 76.2rem;
+    height: 46.6rem;
+    margin-top: 1rem;
     background: url("./images/t_profile.gif") no-repeat;
     background-color: #EFF9F9;
 }
 
 .content .title {
-    padding: 45px 0 24px 13px;
-    font-size: 14px;
+    padding: 4.5rem 0 2.4rem 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #346667;
 }
 
 .content .text {
-    line-height: 24px;
-    padding-left: 8px;
-    margin-bottom: 8px;
+    line-height: 2.4rem;
+    padding-left: 0.8rem;
+    margin-bottom: 0.8rem;
     text-indent: 2em;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #346667;
 }
 
 .book-list {
-    width: 707px;
-    height: 100px;
-    padding: 46px 0 0 55px;
-    margin-top: 14px;
+    width: 70.7rem;
+    height: 10rem;
+    padding: 4.6rem 0 0 5.5rem;
+    margin-top: 1.4rem;
     background: url("./images/t_book.gif") no-repeat;
     background-color: #EFF9F9;
 }
 
 .book li {
-    width: 80px;
-    height: 80px;
-    margin-right: 33px;
-    border: solid 1px #A9A9A9;
+    width: 8rem;
+    height: 8rem;
+    margin-right: 3.3rem;
+    border: solid 0.1rem #A9A9A9;
     float: left;
 }
 
 .footer {
-    height: 54px;
-    line-height: 54px;
+    height: 5.4rem;
+    line-height: 5.4rem;
     color: #A9A9A9;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
