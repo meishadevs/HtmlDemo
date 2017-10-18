@@ -22,7 +22,7 @@ s {
     text-decoration: none;
 }
 
-input, select, textarea {
+input, select, textarea, button {
     outline: none;
     border: none;
     background: none;

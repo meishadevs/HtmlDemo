@@ -207,6 +207,60 @@ body {
     color: #ff9400;
 }
 
+.downloadBar {
+    height: 6.2rem;
+    padding: 0 1.2rem;
+    background-color: #F3ECE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.downloadBar .letArea img {
+    width: 4rem;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.downloadBar .letArea .desc {
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.downloadBar .letArea .title {
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.downloadBar .letArea .content {
+    padding-top: .2rem;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.downloadBar .rightArea .download {
+    width: 7rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #EF4238;
+    color: #FFF3CD;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 1.2rem;
+}
+
+.footer {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #000000;
+    color: #666666;
+    text-align: center;
+}
+
 
 
 
