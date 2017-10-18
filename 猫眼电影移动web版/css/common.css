@@ -1,0 +1,36 @@
+
+/* 用于设置1px大小的边框 */
+/* 如果移动设备的DPI(屏幕像素比)为1.5，将边框大小设为原有大小的0.7倍 */
+@media(-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5) {
+    .border-1px::after {
+        -webkit-transform: scaleY(0.7);
+        transform: scaleY(0.7);
+    }
+}
+
+/* 用于设置1px大小的边框 */
+/* 如果移动设备的DPI(屏幕像素比)为2，将边框大小设为原有大小的0.5倍 */
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+    .border-1px::after {
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

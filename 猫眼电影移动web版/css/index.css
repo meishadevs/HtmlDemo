@@ -1,0 +1,218 @@
+
+html {
+    font-size: 62.5%
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    padding-top: 4.8rem;
+    position: relative;
+}
+
+.topBar {
+    height: 4.8rem;
+    background-color: #DC3C38;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.topBar .icon {
+    width: 12.8rem;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /* 将标签向左移动到标签宽度一半的位置，将标签向上移动到标签宽度一半的位置上 */
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.navBar {
+    height: 4.2rem;
+    font: bold 1.4rem/ 4.2rem "微软雅黑", "Microsoft YaHei";
+    text-align: center;
+    color: #666666;
+    display: flex;
+}
+
+.navBar li {
+    flex: 1;
+}
+
+.navBar li.active {
+    color: #F34D41;
+    border-bottom: solid 0.2rem #F34D41;
+}
+
+.dateBar {
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0.8rem 0;
+    background-color: #F4F4F4;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 1.4rem;
+    text-align: center;
+    color: #666666;
+    position: relative;
+    display: flex;
+}
+
+.dateBar::after {
+    width: 100%;
+    border-top: 0.1rem solid #EDEDED;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: ' ';
+}
+
+.dateBar li {
+    border-radius: 5px;
+    flex: 1;
+}
+
+.dateBar li:nth-child(1) {
+    margin-left: 1.2rem;
+}
+
+.dateBar li:nth-last-child(1) {
+    min-width: 15rem;
+    margin-right: 1.2rem
+}
+
+.dateBar li.active {
+    background-color: #EF4238;
+    color: #fff;
+}
+
+.dateBar .more {
+    position: relative;
+}
+
+.dateBar .more .more-date {
+    padding-right: 0.5rem;
+}
+
+.dateBar .more .icon {
+    width: .6em;
+    height: .6em;
+    border-left: .02rem solid #999;
+    border-bottom: .02rem solid #999;
+    -webkit-transform: translateY(-80%) scaleX(.8) rotateZ(-45deg);
+    transform: translateY(-80%) scaleX(.8) rotateZ(-45deg);
+    position: absolute;
+    top: 50%;
+}
+
+.ticket .ticket-info {
+    margin-left: 1.2rem;
+    margin-bottom: 1.4em;
+}
+
+.ticket .ticket-info .day-info {
+    line-height: 4rem;
+    font-size: 1.6rem;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    color: #333333;
+}
+
+.ticket .ticket-info .ticket-count {
+    color: #DD403B;
+}
+
+.ticket .ticket-info .day-tips {
+    font-size: 1.3rem;
+    color: #999999;
+}
+
+.ticket-list .ticket-title {
+    height: 4.8rem;
+    font-size: 1.2rem;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    background-color: #FF7F7F;
+    color: #fff;
+    text-align: right;
+    position: relative;
+}
+
+.ticket-list .ticket-title li,
+.ticket-list .ticket-content li {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+}
+
+.ticket-list .c1 {
+    width: 34%;
+    text-align: left;
+    left: 1.2rem;
+}
+
+.ticket-list .c2 {
+    width: 16%;
+    left: 37%;
+}
+
+.ticket-list .c3 {
+    width: 15%;
+    left: 54%;
+}
+
+.ticket-list .c4 {
+    width: 15%;
+    left: 70%;
+}
+
+.ticket-list .c5 {
+    width: 12%;
+    right: 1.2rem;
+}
+
+.ticket-content .ticketBar {
+    height: 5rem;
+    font-size: 1.2rem;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    text-align: right;
+    color: #999999;
+    position: relative;
+}
+
+.ticket-content ul:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
+.ticket-content .ticketBar .name {
+    color: #000;
+}
+
+.ticket-content .ticketBar .total-money {
+    padding-left: 0.6rem;
+}
+
+.ticket-content .ticketBar .money {
+    color: #EF5957;
+}
+
+.ticket-content .ticketBar .font-orange {
+    color: #ff9400;
+}
+
+
+
+
+
+
+
+
+
+

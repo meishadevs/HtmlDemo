@@ -1,0 +1,57 @@
+/**
+ * Created by Administrator on 2017/3/31.
+ * 重置标签的CSS样式
+ */
+
+/* CSS Document */
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input, a {
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+s {
+    text-decoration: none;
+}
+
+input, select, textarea {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+strong {
+    display: block;
+}
+
+/* 清浮动 */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
