@@ -1,0 +1,114 @@
+
+.jd-layout {
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.jd-header {
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.jd-header .jd-header-box {
+    max-width: 640px;
+    min-width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: rgba(209, 55, 67, 0.85);
+    position: relative;
+}
+
+.jd-header .jd-header-box .icon-logo {
+    width: 57px;
+    height: 21px;
+    background-position: 0 -109px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.jd-header form {
+    margin-left: 70px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.jd-header form .icon-search {
+    width: 19px;
+    height: 20px;
+    background-position: -60px -110px;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.jd-header form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+
+.jd-header .jd-header-box .logoin {
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.jd-banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.jd-banner .banner-image {
+    width: 800%;
+}
+
+.jd-banner .banner-image li {
+    width: 12.5%;
+    float: left;
+}
+
+.jd-banner .banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.jd-banner .banner-circle {
+    width: 118px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+}
+
+.jd-banner .banner-circle li {
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    border: solid 1px #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+}
+
+.jd-banner .banner-circle li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.jd-banner .banner-circle li.current {
+    background-color: #fff;
+}

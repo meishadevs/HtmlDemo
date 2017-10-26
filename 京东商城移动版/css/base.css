@@ -1,0 +1,65 @@
+
+*,
+::after,
+::before {
+
+    padding: 0;
+    margin: 0;
+
+    /* 清除ios上默认的点击时产生的高亮区块 */
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+
+    /* 设置盒模型的类型为IE盒模型 */
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-family: "Microsoft YaHei", "sans-serif";
+    font-size: 14px;
+    color: #333;
+    background: #f5f5f5;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: none;
+    resize: none;
+
+    /* 清楚ios浏览器默认的样式 */
+    -webkit-appearance: none;
+}
+
+img {
+    /* 清除3px的bug */
+    vertical-align: middle;
+    border: 0;
+}
+
+/* 清除浮动 */
+.clearfix::after,
+.clearfix::before {
+    content: '.';
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+
+[class^="icon-"] {
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
