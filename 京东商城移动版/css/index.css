@@ -112,3 +112,35 @@
 .jd-banner .banner-circle li.current {
     background-color: #fff;
 }
+
+.jd-nav {
+    width: 100%;
+    padding-top: 11px;
+    background-color: #fff;
+}
+
+.jd-nav .nav-list {
+    width: 100%;
+    height: 128px;
+    padding: 0 3.125%;
+    border-bottom: solid 1px #EBEBEB;
+}
+
+.jd-nav .nav-list .nav-item {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.jd-nav .nav-list .nav-image {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 6px;
+}
+
+.jd-nav .nav-list .nav-text {
+    font-size: 12px;
+    color: #5D5D5D;
+    padding-bottom: 12px;
+}
+
