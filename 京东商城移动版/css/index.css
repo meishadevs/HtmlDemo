@@ -307,3 +307,30 @@ body {
 .crazy-tue .product-bottom img {
     width: 100%;
 }
+
+.jd-goods .product-bottom {
+    width: 100%;
+}
+
+/* 左边框 */
+.jd-goods .product-bottom .border-left {
+    border-left: solid 1px #EBEBEB;
+}
+
+/* 右边框 */
+.jd-goods .product-bottom .border-right {
+    border-right: solid 1px #EBEBEB;
+}
+
+/* 下边框 */
+.jd-goods .product-bottom .border-bottom {
+    border-bottom: solid 1px #EBEBEB;
+}
+
+.jd-goods .product-bottom a {
+    width: 50%;
+}
+
+.jd-goods .product-bottom img {
+    width: 100%
+}

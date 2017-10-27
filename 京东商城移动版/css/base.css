@@ -62,3 +62,11 @@ img {
     background: url("../images/sprites.png") no-repeat;
     background-size: 200px 200px;
 }
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
