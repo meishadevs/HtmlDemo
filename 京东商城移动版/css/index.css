@@ -10,6 +10,7 @@ body {
     position: relative;
 }
 
+/* 头部 */
 .jd-header {
     width: 100%;
     height: 40px;
@@ -71,6 +72,7 @@ body {
     right: 0;
 }
 
+/* banner区 */
 .jd-banner {
     width: 100%;
     overflow: hidden;
@@ -190,6 +192,7 @@ body {
     border-bottom: none;
 }
 
+/* 掌上秒杀区块 */
 .jd-secondkill {
 
 }
@@ -290,4 +293,17 @@ body {
     color: #666666;
     text-align: center;
     text-decoration: line-through;
+}
+
+/* 疯狂星期二区块 */
+.crazy-tue {
+
+}
+
+.crazy-tue .product-bottom {
+    padding: 5px;
+}
+
+.crazy-tue .product-bottom img {
+    width: 100%;
 }
