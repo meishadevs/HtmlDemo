@@ -1,0 +1,103 @@
+
+body {
+    background-color: #F5F5F5;
+}
+
+.jd-topbar {
+    position: static;
+}
+
+.safe-tip {
+    width: 100%;
+    height: 35px;
+    padding-top: 8px;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: center;
+    color: #686868;
+    border-bottom: solid 1px #E0E0E0;
+}
+
+.safe-tip .tip-name {
+    height: 18px;
+    line-height: 18px;
+    padding-left: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.safe-tip .tip-name::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url("../images/safe_icon.png") no-repeat;
+    background-size: 18px 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 自定义checkBox标签 */
+.check-box {
+    width: 18px;
+    height: 18px;
+    background: url("../images/shop-icon.png") no-repeat;
+    background-size: 50px 100px;
+    background-position: 0px 0px;
+    display: block;
+}
+
+.check-box[selected] {
+    background-position: -25px 0px;
+}
+
+.jd-shop {
+    margin-top: 10px;
+}
+
+.shop-title {
+    height: 37px;
+    border-top: solid 1px #E0E0E0;
+    border-bottom: solid 1px #E0E0E0;
+    position: relative;
+}
+
+.shop-title .jd-check-box {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.shop-title .jd-check-box .check-box {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.shop-title .title-content {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.shop-title .title-content img {
+    width: 16px;
+    float: left;
+}
+
+.shop-title .title-content .title-name {
+    padding-left: 2px;
+    padding-top: 1px;
+    font-size: 13px;
+    color: #333333;
+    float: left;
+}
+
+.shop-title .title-content .title-desc {
+    padding-top: 1px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #F15353;
+    float: right;
+}

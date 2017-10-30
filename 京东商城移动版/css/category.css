@@ -6,77 +6,93 @@ body {
     position: absolute;
 }
 
-.jd-topbar {
-    width: 100%;
-    height: 45px;
-    background: url("../images/header-bg.png") repeat-x;
-    background-size: 1px 44px;
-    border-bottom: solid 1px #E0E0E0;
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.jd-topbar .icon-back {
-    width: 40px;
-    height: 44px;
-    padding: 12px 14px;
-    background-position: -24px 0;
-    background-clip: content-box;
-    background-origin: content-box;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.jd-topbar form {
-    width: 100%;
-    padding: 0 40px;
-}
-
-.jd-topbar form input {
-    width: 100%;
-    height: 32px;
-    padding-left: 10px;
-    margin-top: 8px;
-    border: solid 1px #BFBFBF;
-    border-radius: 10px;
-}
-
-.jd-topbar .icon-menu {
-    width: 18px;
-    height: 18px;
-    margin: 14px 11px 12px;
-    background-position: -61px -1px;
-    background-clip: content-box;
-    background-origin: content-box;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.jd-category {
+.jd-cate {
     width: 100%;
     height: 100%;
+    padding-top: 45px;
     position: relative;
 }
 
-.jd-category .category-left {
+.cate-left {
     width: 90px;
     height: 100%;
     padding-top: 45px;
+    overflow: hidden;
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.jd-category .category-right {
+.cate-left .cate-nav li {
+    width: 90px;
+    height: 50px;
+
+    /* 因为使用了IE盒模型，所以此处的高度包含了border-bottom值，而line-height不包含border-bottom值 */
+    line-height: 49px;
+    background-color: #F3F4F6;
+    border-right: solid 1px #E0E0E0;
+    border-bottom: solid 1px #E0E0E0;
+    text-align: center;
+}
+
+.cate-left .cate-nav li a {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #000000;
+    display: block;
+}
+
+.cate-left .cate-nav li.current {
+    background-color: #fff;
+    border-right: none;
+}
+
+.cate-left .cate-nav li.current a {
+    color: #D8505C;
+}
+
+.cate-right {
     width: 100%;
     height: 100%;
-    padding-left: 50px;
-    padding-top: 45px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    padding-left: 90px;
+    overflow: hidden;
 }
+
+.cate-right .cate-box {
+    padding: 10px 12px 0 12px;
+}
+
+.cate-right .banner img {
+    width: 100%;
+}
+
+.cate-right .cate-product .title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.cate-right .product-item {
+    width: 33.333%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+}
+
+.cate-right .product-item .product-image {
+    height: 62px;
+}
+
+.cate-right .product-item .product-name {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
+}
+
+
+
+

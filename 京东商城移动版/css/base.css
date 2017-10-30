@@ -70,3 +70,64 @@ img {
 .fr {
     float: right;
 }
+
+.jd-topbar {
+    width: 100%;
+    height: 45px;
+    background: url("../images/header-bg.png") repeat-x;
+    background-size: 1px 44px;
+    border-bottom: solid 1px #E0E0E0;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.jd-topbar .icon-back {
+    width: 40px;
+    height: 44px;
+    padding: 12px 14px;
+    background-position: -24px 0;
+    background-clip: content-box;
+    background-origin: content-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.jd-topbar form {
+    width: 100%;
+    height: 44px;
+    padding: 0 40px;
+}
+
+.jd-topbar form input {
+    width: 100%;
+    height: 32px;
+    padding-left: 10px;
+    margin-top: 8px;
+    border: solid 1px #BFBFBF;
+    border-radius: 10px;
+}
+
+.jd-topbar .topbar-title {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: inherit;
+    font-size: 16px;
+    color: #000000;
+}
+
+.jd-topbar .icon-menu {
+    width: 18px;
+    height: 18px;
+    margin: 14px 11px 12px;
+    background-position: -61px -1px;
+    background-clip: content-box;
+    background-origin: content-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
