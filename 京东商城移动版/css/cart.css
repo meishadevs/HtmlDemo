@@ -1,6 +1,9 @@
 
 body {
+    width: 100%;
+    height: 100%;
     background-color: #F5F5F5;
+    position: relative;
 }
 
 .jd-topbar {
@@ -51,18 +54,7 @@ body {
     background-position: -25px 0px;
 }
 
-.jd-shop {
-    margin-top: 10px;
-}
-
-.shop-title {
-    height: 37px;
-    border-top: solid 1px #E0E0E0;
-    border-bottom: solid 1px #E0E0E0;
-    position: relative;
-}
-
-.shop-title .jd-check-box {
+.jd-check-box {
     width: 40px;
     height: 35px;
     position: absolute;
@@ -70,9 +62,25 @@ body {
     top: 0;
 }
 
-.shop-title .jd-check-box .check-box {
+.jd-check-box .check-box {
     margin-top: 8px;
     margin-left: 10px;
+}
+
+.shop-view {
+    margin-bottom: 58px;
+}
+
+.jd-shop {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.shop-title {
+    height: 37px;
+    border-top: solid 1px #E0E0E0;
+    border-bottom: solid 1px #E0E0E0;
+    position: relative;
 }
 
 .shop-title .title-content {
@@ -101,3 +109,248 @@ body {
     color: #F15353;
     float: right;
 }
+
+.shop-content {
+    padding: 0 10px 10px 40px;
+    margin-top: 10px;
+    border-bottom: solid 1px #E0E0E0;
+    position: relative;
+}
+
+.shop-content .product-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border: solid 1px #E0E0E0;
+    float: left;
+}
+
+.shop-content .product-image img {
+    width: 78px;
+    height: 78px;
+}
+
+.shop-content .product-info {
+    height: 80px;
+    font-size: 13px;
+    color: #555;
+    overflow: hidden;
+}
+
+.shop-content .product-info .product-name {
+    height: 32px;
+    line-height: 16px;
+    font-size: 13px;
+    color: #333333;
+
+    /* 当有文本溢出，显示省略号 */
+    text-overflow: ellipsis;
+
+    /* 隐藏溢出的内容 */
+    overflow: hidden;
+
+    /* 限制标签中最多只能显示两行文本 */
+    -webkit-line-clamp: 2;
+
+    /* 设置弹性盒子中的元素的排列方式为从上到下的纵向排列 */
+    -webkit-box-orient: vertical;
+
+    /* 设置标签使用弹性布盒子 */
+    display: -webkit-box;
+}
+
+.shop-content .product-info .product-price {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #555555;
+}
+
+.shop-content .option {
+    margin-top: 6px;
+}
+
+.shop-content .option .change-num {
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    float: left;
+}
+
+.shop-content .option .change-num .reduce-num {
+    width: 32px;
+    border: solid 1px #E0E0E0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    float: left;
+}
+
+.shop-content .option .change-num .input-num {
+    width: 32px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    border-top: solid 1px #E0E0E0;
+    border-bottom: solid 1px #E0E0E0;
+    float: left;
+}
+
+.shop-content .option .change-num .add-num {
+    width: 32px;
+    border: solid 1px #E0E0E0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    float: left;
+}
+
+.shop-content .delete-box {
+    padding-top: 5px;
+    margin-right: 5px;
+    float: right;
+}
+
+.shop-content .delete-box .delete-top {
+    width: 18px;
+    height: 4px;
+    margin-bottom: -3px;
+    background: url("../images/delete_up.png") no-repeat;
+    background-size: 18px 4px;
+    display: block;
+}
+
+.shop-content .delete-box .delete-bottom {
+    width: 17px;
+    height: 17px;
+    background: url("../images/delete_down.png") no-repeat;
+    background-size: 17px 17px;
+    display: block;
+}
+
+/* 结算区块 */
+.submit-box {
+    width: 100%;
+    height: 58px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.submit-left {
+    float: left;
+}
+
+.submit-left .jd-check-box {
+    width: 57px;
+    margin-top: 10px;
+}
+
+.submit-left .jd-check-box .check-box {
+    float: left;
+}
+
+.submit-box .submit-left label {
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+
+.submit-left .submit-content {
+    margin-top: 10px;
+    margin-left: 67px;
+    color: #fff;
+    float: left;
+}
+
+.submit-left .submit-content .total {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #F4F4F4;
+}
+
+.submit-left .submit-content .amount-cashback {
+    font-size: 10px;
+    color: #D7D7D7;
+}
+
+.submit-box .submit-right {
+    width: 116px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #F15353;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+}
+
+.dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dialog .dialog-box {
+    width: 256px;
+    height: 134px;
+    padding: 10px 20px;
+    background-color: #fff;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+
+.dialog .dialog-box .dialog-title {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: solid 1px #E0E0E0;
+    color: #555555;
+}
+
+.dialog .dialog-box .dialog-content {
+    padding-top: 10px;
+}
+
+.dialog .dialog-content .button-cancel {
+    width: 96px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: #333333;
+    border: solid 1px #E0E0E0;
+    float: left;
+}
+
+.dialog .dialog-content .button-ok {
+    width: 96px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #F15353;
+    color: #FDE2E2;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
