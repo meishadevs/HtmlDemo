@@ -298,7 +298,7 @@ body {
 }
 
 .dialog .dialog-box {
-    width: 256px;
+    width: 80%;
     height: 134px;
     padding: 10px 20px;
     background-color: #fff;
