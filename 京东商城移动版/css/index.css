@@ -25,7 +25,7 @@ body {
     min-width: 300px;
     height: 40px;
     margin: 0 auto;
-    background-color: rgba(209, 55, 67, 0.85);
+    background-color: rgba(209, 55, 67, 0);
     position: relative;
 }
 
