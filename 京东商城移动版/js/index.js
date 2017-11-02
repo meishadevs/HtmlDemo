@@ -6,6 +6,9 @@ window.onload = function () {
 
     //秒杀
     secondKill();
+
+    //轮播图
+    scrollPic();
 }
 
 
@@ -88,3 +91,102 @@ function secondKill() {
         }
     }, 1000);
 }
+
+
+//轮播图
+function scrollPic() {
+
+    //获得banner
+    var banner = document.querySelector('.jd-banner');
+
+    //获得承载图片的盒子
+    var imageBox = banner.querySelector('.banner-image');
+
+    //获得所有图片
+    var imageList = imageBox.querySelectorAll('li');
+
+    //获得承载点的盒子
+    var pointBox = banner.querySelector('.banner-point');
+
+    //获得所有点
+    var pointList = pointBox.querySelectorAll('li');
+
+    //获得banner的宽度
+    var bannerWidth = banner.offsetWidth;
+
+    //标记当前正显示的图片的下标
+    var index = 1;
+
+    var timer = null;
+
+    //创建一个每秒钟调用一次的定时器
+    timer = setInterval(function () {
+        changeClassName(pointList, index);
+
+        index++;
+
+        addTransition(imageBox);
+        setTransform(imageBox, -index * bannerWidth);
+    }, 2000);
+
+    //过渡效果播放完成后，被触发
+    imageBox.addEventListener('transitionend', function () {
+
+        //如果播到了最后一张图片
+        //一共有10张图片，图片的索引从0开始，所以第9张图片就是最后一张图片
+        if (index >= 9) {
+            index = 1;
+
+        //第0张图片和第8张图片是一样的
+        //第一张图片和第9张图片是一样的
+        } else if (index <= 0) {
+            index = 8;
+        }
+
+        //移除过渡效果
+        removeTransition(imageBox);
+
+        //设置移动的距离
+        setTransform(imageBox, -index * bannerWidth);
+    });
+
+    //过渡效果播放完成后，被触发
+    imageBox.addEventListener('webkitTransitionEnd', function () {
+    });
+}
+
+
+//添加过渡效果
+function addTransition(ele) {
+    ele.style.transition = 'all 0.3s ease';
+    ele.style.webkitTransition = 'all 0.3s ease';
+}
+
+
+//移除过渡效果
+function removeTransition(ele) {
+    ele.style.transition = 'none';
+    ele.style.webkitTransition = 'none';
+}
+
+
+//设置移动的距离
+function setTransform(ele, offset) {
+    ele.style.transform = 'translateX(' + offset + 'px)';
+    ele.style.webkitTransform = 'translateX(' + offset + 'px)';
+}
+
+
+//修改标签的类名
+function changeClassName(eles, index) {
+    for (var i = 0; i < eles.length; i++) {
+        eles[i].className = '';
+    }
+
+    if (index >= 8) {
+        index = 0;
+    }
+
+    eles[index].className = 'current';
+}
+

@@ -80,11 +80,13 @@ body {
 }
 
 .jd-banner .banner-image {
-    width: 800%;
+    width: 1000%;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
 }
 
 .jd-banner .banner-image li {
-    width: 12.5%;
+    width: 10%;
     float: left;
 }
 
@@ -93,29 +95,29 @@ body {
     height: auto;
 }
 
-.jd-banner .banner-circle {
+.jd-banner .banner-point {
     width: 118px;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     position: absolute;
     left: 50%;
     bottom: 5px;
 }
 
-.jd-banner .banner-circle li {
+.jd-banner .banner-point li {
     width: 6px;
     height: 6px;
     margin-right: 10px;
     border: solid 1px #fff;
     border-radius: 3px;
-    cursor: pointer;
     float: left;
 }
 
-.jd-banner .banner-circle li:nth-last-child(1) {
+.jd-banner .banner-point li:nth-last-child(1) {
     margin-right: 0;
 }
 
-.jd-banner .banner-circle li.current {
+.jd-banner .banner-point li.current {
     background-color: #fff;
 }
 
