@@ -58,6 +58,8 @@ function secondKill() {
         var h = Math.floor(times / 60 / 60);
 
         //将剩余时间的秒数转换成分钟(将剩余时间的秒数转换成小时的余数表示分钟)
+        //times / 60 表示将剩余时间的秒数转换成分钟
+        // times / 60 % 60 表示将分钟转换成小时产生的余数
         var m = Math.floor(times / 60 % 60);
 
         //秒(将剩余时间的秒数转换为分钟的余数表示秒数)
