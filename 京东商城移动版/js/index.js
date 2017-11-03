@@ -121,16 +121,26 @@ function scrollPic() {
 
     //创建一个每秒钟调用一次的定时器
     timer = setInterval(function () {
-        changeClassName(pointList, index);
+
+        //选择小圆点
+        //一共有8个小圆点，10张图片
+        //第0个小圆点，对应第1张图片
+        //第1个小圆点，对应第2张图片
+        //第2个小圆点，对应第3张图片
+        selectPoint(pointList, index);
 
         index++;
 
+        //添加过渡效果
         addTransition(imageBox);
+
+        //设置移动的距离
         setTransform(imageBox, -index * bannerWidth);
     }, 2000);
 
     //过渡效果播放完成后，被触发
     imageBox.addEventListener('transitionend', function () {
+
 
         //如果播到了最后一张图片
         //一共有10张图片，图片的索引从0开始，所以第9张图片就是最后一张图片
@@ -177,8 +187,8 @@ function setTransform(ele, offset) {
 }
 
 
-//修改标签的类名
-function changeClassName(eles, index) {
+//选择小圆点
+function selectPoint(eles, index) {
     for (var i = 0; i < eles.length; i++) {
         eles[i].className = '';
     }
