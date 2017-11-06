@@ -1,3 +1,6 @@
+/**
+ * 首页的js文件
+ */
 
 window.onload = function () {
 
@@ -9,6 +12,13 @@ window.onload = function () {
 
     //轮播图
     scrollPic();
+
+    //监听浏览器窗口大小是否发生变化
+    window.onresize = function () {
+
+        //重新加载当前页面
+        location.reload(true);
+    }
 }
 
 
@@ -25,7 +35,7 @@ function changeTransparent() {
     var bannerHeight = banner.offsetHeight;
 
     //监听浏览器的滚动事件
-    window.onscroll = function() {
+    window.onscroll = function () {
 
         //获得竖直方向上的滚动条到浏览器顶部的距离
         var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
@@ -147,8 +157,8 @@ function scrollPic() {
         if (index >= 9) {
             index = 1;
 
-        //第0张图片和第8张图片是一样的
-        //第一张图片和第9张图片是一样的
+            //第0张图片和第8张图片是一样的
+            //第1张图片和第9张图片是一样的
         } else if (index <= 0) {
             index = 8;
         }

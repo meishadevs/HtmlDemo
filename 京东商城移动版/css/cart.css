@@ -289,7 +289,7 @@ body {
 .dialog {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1000;
     display: none;
     position: absolute;
@@ -299,13 +299,11 @@ body {
 
 .dialog .dialog-box {
     width: 80%;
-    height: 134px;
     padding: 10px 20px;
+    margin: 30% auto 0;
     background-color: #fff;
-    transform: translateX(-50%);
-    position: absolute;
-    top: 100px;
-    left: 50%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
 }
 
 .dialog .dialog-box .dialog-title {
@@ -323,7 +321,7 @@ body {
 }
 
 .dialog .dialog-content .button-cancel {
-    width: 96px;
+    width: 45%;
     height: 36px;
     line-height: 34px;
     text-align: center;
@@ -333,7 +331,7 @@ body {
 }
 
 .dialog .dialog-content .button-ok {
-    width: 96px;
+    width: 45%;
     height: 36px;
     line-height: 34px;
     text-align: center;
@@ -342,6 +340,58 @@ body {
     float: right;
 }
 
+@keyframes bounceInDowm {
+
+    0%,
+    60%,
+    75%,
+    90%,
+    100% {
+        /* 设置动画的速度变化曲线 */
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+    }
+
+    0% {
+        opacity: 0;
+        transform: translateY(-3000px);
+        -webkit-transform: translateY(-3000px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(25px);
+        -webkit-transform: translateY(25px);
+    }
+
+    75% {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+    }
+
+    90% {
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.bounceInDown {
+    /* 动画名称 */
+    animation-name: bounceInDown;
+    -webkit-animation-name: bounceInDowm;
+
+    /* 动画完成一个周期所花费的时间 */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
 
 
 
