@@ -12,6 +12,7 @@
 
     /* 设置盒模型的类型为IE盒模型 */
     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -39,6 +40,7 @@ textarea {
 
     /* 清楚ios浏览器默认的样式 */
     -webkit-appearance: none;
+    appearance: none;
 }
 
 img {
