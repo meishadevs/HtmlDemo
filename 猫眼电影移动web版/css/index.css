@@ -261,6 +261,40 @@ body {
     text-align: center;
 }
 
+@font-face {
+    font-family: base_icon;
+    src: url(../fonts/base.woff?v12) format("woff")
+}
+
+.gotoTop {
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    background-color: #E77976;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    opacity: 0.7;
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 80px;
+}
+
+.gotoTop a.react {
+    height: 100%;
+    color: inherit;
+    display: block;
+}
+
+.gotoTop .text-icon {
+    font-family: base_icon;
+    font-style: normal;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 
 
 
