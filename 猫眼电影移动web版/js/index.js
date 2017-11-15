@@ -21,29 +21,42 @@ window.onload = function () {
 //回到顶部
 function gotoTop() {
 
-    //获得浏览器窗口的高度
+    //获得回到顶部按钮
+    var goTop = document.querySelector('.gotoTop');
+
+    //获得浏览器的高度
     var winHeight = document.documentElement.clientHeight || document.body.clientHeight;
 
-    //获得回到顶部按钮
-    var gotoTop = document.querySelector('.gotoTop');
+    var leader = 0;
+    var target = 0;
+    var timer = null;
 
-    //监听浏览器滚动
-    window.onscroll = function () {
+    //监听浏览器的滚动事件
+    window.onscroll = function()
+    {
+        //如果滚动的距离超过了浏览器高度的一半，显示回到顶部按钮
+        Util.scroll().top > winHeight / 2 ? goTop.style.display = "block" : goTop.style.display = "none";
 
-        //获得滚动条在竖直方向上滚动的距离
-        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-
-        //如果网页在竖直方向上滚动的距离大于浏览器高度的一半
-        if (scrollTop > winHeight / 2) {
-            //显示回到顶部按钮
-            gotoTop.style.display = 'block';
-        } else {
-            //隐藏回到顶部按钮
-            gotoTop.style.display = 'none';
-        }
+        //把卷进去的头部给起始位置
+        leader = Util.scroll().top;
     }
 
-    gotoTop.onclick = function () {
-        document.body.scrollTop = '0px';
+    //监听回到顶部按钮的点击事件
+    goTop.onclick = function() {
+
+        target = 0;
+
+        timer = setInterval(function() {
+
+            leader = leader + (target - leader ) / 10;
+
+            //去往页面的某个位置
+            window.scrollTo(0, leader);
+
+            if(leader == target) {
+
+                clearInterval(timer);
+            }
+        }, 10);
     }
 }
