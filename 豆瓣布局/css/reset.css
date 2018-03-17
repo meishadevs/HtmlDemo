@@ -1,0 +1,98 @@
+html,
+body,
+div,
+ul,
+li,
+a,
+nav,
+::after,
+::before {
+
+    padding: 0;
+    margin: 0;
+
+    /* 清除ios上默认的点击时产生的高亮区块 */
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+
+    /* 设置盒模型的类型为IE盒模型 */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: none;
+    resize: none;
+
+    /* 清楚ios浏览器默认的样式 */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+img {
+    /* 清除3px的bug */
+    vertical-align: middle;
+    border: 0;
+}
+
+/* 清除浮动 */
+.clearfix::after,
+.clearfix::before {
+    content: '.';
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+
+.border-1px {
+    position: relative;
+}
+
+.border-1px::after {
+    content: '';
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* 如果网页在最小屏幕像素比为1.5的移动设备上运行 */
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5) {
+    .border-1px::after {
+        -webkit-transform: scaleY(0.7);
+        transform: scaleY(0.7);
+    }
+}
+
+/* 如果网页在最小屏幕像素比为2的移动设备上运行 */
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2) {
+    .border-1px::after {
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+    }
+}
