@@ -1,0 +1,247 @@
+{
+  "ID": "752fe5f5-f504-4fde-b65d-1a7858a408fa",
+  "Version": "2.3.0.0",
+  "Name": "Item_7",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 471,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "achieve_medalGold.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.812
+            },
+            "Scale": {
+              "ScaleX": 0.5727,
+              "ScaleY": 0.4386
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -82.0,
+            "TopMargin": -82.812,
+            "BottomMargin": 0.812,
+            "Tag": 472,
+            "ActionTag": -730720297,
+            "Size": {
+              "X": 82.0,
+              "Y": 82.0
+            },
+            "Name": "newGold_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "14000",
+            "LabelBMFontFile_CNB": {
+              "Type": "Default",
+              "Path": "Default/defaultBMFont.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.1,
+              "ScaleY": 1.1519
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -71.0,
+            "TopMargin": -36.0,
+            "Tag": 473,
+            "ActionTag": -989724570,
+            "Size": {
+              "X": 71.0,
+              "Y": 36.0
+            },
+            "Name": "BitmapFontLabel_1",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "10元",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.1,
+              "ScaleY": 1.4
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -40.0,
+            "BottomMargin": -20.0,
+            "Tag": 474,
+            "ActionTag": 537450076,
+            "Size": {
+              "X": 40.0,
+              "Y": 20.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "BuyButton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "BuyButton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 9,
+            "Scale9Width": 40,
+            "Scale9Height": 12,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.1214,
+              "Y": 7.0001
+            },
+            "Scale": {
+              "ScaleX": 0.8617,
+              "ScaleY": 1.2908
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 0.1214,
+            "RightMargin": -70.1214,
+            "TopMargin": -7.0001,
+            "BottomMargin": -22.9999,
+            "Tag": 475,
+            "ActionTag": -430821384,
+            "Size": {
+              "X": 70.0,
+              "Y": 30.0
+            },
+            "Name": "Button_14000",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "BuyButton.png",
+        "Default/Button_Disable.png",
+        "Default/defaultBMFont.png",
+        "Default/defaultBMFont.fnt",
+        "achieve_medalGold.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,282 @@
+{
+  "ID": "1ff77af4-5972-4e90-8e13-03f7eddbfc47",
+  "Version": "2.3.0.1",
+  "Name": "GameOver",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 216,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "24.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0001,
+              "Y": -0.0103
+            },
+            "Scale": {
+              "ScaleX": 3.1066,
+              "ScaleY": 2.4029
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -301.9999,
+            "RightMargin": -302.0001,
+            "TopMargin": -238.9897,
+            "BottomMargin": -239.0103,
+            "Tag": 66,
+            "ActionTag": -590338450,
+            "Size": {
+              "X": 604.0,
+              "Y": 478.0
+            },
+            "Name": "Sprite_GameOver",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "游戏已结束,请选择",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 17.1927,
+              "Y": 81.5435
+            },
+            "Scale": {
+              "ScaleX": 8.0,
+              "ScaleY": 8.0
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -67.8073,
+            "RightMargin": -102.1927,
+            "TopMargin": -91.5435,
+            "BottomMargin": 71.5435,
+            "Tag": 67,
+            "ActionTag": 1602842583,
+            "Size": {
+              "X": 170.0,
+              "Y": 20.0
+            },
+            "Name": "Text_4",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "返回到菜单",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 97,
+            "Scale9Height": 34,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -412.0,
+              "Y": -210.0
+            },
+            "Scale": {
+              "ScaleX": 4.35,
+              "ScaleY": 3.91
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -475.5,
+            "RightMargin": 348.5,
+            "TopMargin": 182.0,
+            "BottomMargin": -238.0,
+            "Tag": 68,
+            "ActionTag": -1766170096,
+            "Size": {
+              "X": 127.0,
+              "Y": 56.0
+            },
+            "Name": "Button_intoMenu",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 20,
+            "ButtonText": "重新开始",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 97,
+            "Scale9Height": 34,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.7268,
+              "Y": -210.0
+            },
+            "Scale": {
+              "ScaleX": 4.35,
+              "ScaleY": 3.91
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 177.2268,
+            "RightMargin": -304.2268,
+            "TopMargin": 182.0,
+            "BottomMargin": -238.0,
+            "Tag": 69,
+            "ActionTag": 2064425530,
+            "Size": {
+              "X": 127.0,
+              "Y": 56.0
+            },
+            "Name": "Button_Start",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "button.png",
+        "Default/Button_Disable.png",
+        "24.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

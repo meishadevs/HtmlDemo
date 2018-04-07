@@ -1,0 +1,572 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.0.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "main_bg1.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 1.35,
+              "ScaleY": 1.2
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 80.0,
+            "RightMargin": 80.0,
+            "TopMargin": 80.0,
+            "BottomMargin": 80.0,
+            "Tag": 5,
+            "ActionTag": -1083862286,
+            "Size": {
+              "X": 480.0,
+              "Y": 800.0
+            },
+            "Name": "main_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "开始游戏",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "choose_pilotBg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "choose_bubble_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 28,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 570.0
+            },
+            "Scale": {
+              "ScaleX": 1.38,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5938
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.0521
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 248.0,
+            "TopMargin": 365.0,
+            "BottomMargin": 545.0,
+            "Tag": 8,
+            "ActionTag": -821422551,
+            "Size": {
+              "X": 144.0,
+              "Y": 50.0
+            },
+            "Name": "Button_StartGame",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "音效设置",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "choose_pilotBg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "choose_bubble_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 28,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 470.0
+            },
+            "Scale": {
+              "ScaleX": 1.38,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4896
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.0521
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 248.0,
+            "TopMargin": 465.0,
+            "BottomMargin": 445.0,
+            "Tag": 9,
+            "ActionTag": -1935199506,
+            "Size": {
+              "X": 144.0,
+              "Y": 50.0
+            },
+            "Name": "Button_SetingMusic",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "游戏得分",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "choose_pilotBg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "choose_bubble_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 28,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.9996,
+              "Y": 370.0
+            },
+            "Scale": {
+              "ScaleX": 1.38,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3854
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.0521
+            },
+            "LeftMargin": 247.9996,
+            "RightMargin": 248.0004,
+            "TopMargin": 565.0,
+            "BottomMargin": 345.0,
+            "Tag": 10,
+            "ActionTag": -713160248,
+            "Size": {
+              "X": 144.0,
+              "Y": 50.0
+            },
+            "Name": "Button_Score",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "游戏商城",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "choose_pilotBg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "choose_bubble_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 28,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 270.0
+            },
+            "Scale": {
+              "ScaleX": 1.38,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2813
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.0521
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 248.0,
+            "TopMargin": 665.0,
+            "BottomMargin": 245.0,
+            "Tag": 11,
+            "ActionTag": -216690605,
+            "Size": {
+              "X": 144.0,
+              "Y": 50.0
+            },
+            "Name": "Button_GameShop",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "更多游戏",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "choose_pilotBg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "choose_bubble_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 28,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "VisibleForFrame": false,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 170.0
+            },
+            "Scale": {
+              "ScaleX": 1.3816,
+              "ScaleY": 1.5082
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1771
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.0521
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 248.0,
+            "TopMargin": 765.0,
+            "BottomMargin": 145.0,
+            "Tag": 12,
+            "ActionTag": 1247836671,
+            "Size": {
+              "X": 144.0,
+              "Y": 50.0
+            },
+            "Name": "Button_MoreGame",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "退出游戏",
+            "TextColor": {
+              "G": 0,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "choose_pilotBg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "choose_bubble_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 28,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "VisibleForFrame": false,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 70.0
+            },
+            "Scale": {
+              "ScaleX": 1.3816,
+              "ScaleY": 1.5082
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0729
+            },
+            "PreSize": {
+              "X": 0.225,
+              "Y": 0.0521
+            },
+            "LeftMargin": 248.0,
+            "RightMargin": 248.0,
+            "TopMargin": 865.0,
+            "BottomMargin": 45.0,
+            "Tag": 13,
+            "ActionTag": -95770957,
+            "Size": {
+              "X": 144.0,
+              "Y": 50.0
+            },
+            "Name": "Button_exitGame",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "VisibleForFrame": false,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 370.0,
+              "Y": 550.0
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.8
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5781,
+              "Y": 0.5729
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 370.0,
+            "RightMargin": 270.0,
+            "TopMargin": 410.0,
+            "BottomMargin": 550.0,
+            "Tag": 23,
+            "ActionTag": 2075008900,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node_shop",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "choose_bubble_bg.png",
+        "choose_pilotBg.png",
+        "Default/Button_Disable.png",
+        "shop.json",
+        "main_bg1.jpg"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

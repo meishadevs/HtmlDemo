@@ -1,0 +1,203 @@
+{
+  "ID": "dbb7de1f-d654-4b37-8809-d02dd32a8f40",
+  "Version": "2.3.0.0",
+  "Name": "SceneScore",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 176,
+        "Children": [
+          {
+            "FontSize": 20,
+            "LabelText": "你的得分是",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 194.5421,
+              "Y": 856.7943
+            },
+            "Scale": {
+              "ScaleX": 2.4575,
+              "ScaleY": 1.9224
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.304,
+              "Y": 0.8925
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 144.5421,
+            "RightMargin": 395.4579,
+            "TopMargin": 93.2057,
+            "BottomMargin": 846.7943,
+            "Tag": 177,
+            "ActionTag": -170075709,
+            "Size": {
+              "X": 100.0,
+              "Y": 20.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 318.5841,
+              "Y": 850.8448
+            },
+            "Scale": {
+              "ScaleX": 1.6119,
+              "ScaleY": 1.1483
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4978,
+              "Y": 0.8863
+            },
+            "PreSize": {
+              "X": 0.0469,
+              "Y": 0.0333
+            },
+            "LeftMargin": 318.5841,
+            "RightMargin": 291.4159,
+            "TopMargin": 77.1552,
+            "BottomMargin": 850.8448,
+            "Tag": 178,
+            "ActionTag": -1497935204,
+            "Size": {
+              "X": 30.0,
+              "Y": 32.0
+            },
+            "Name": "score",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "game_pause_btn_back.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game_pause_btn_back.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 190,
+            "Scale9Height": 44,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 240.6663,
+              "Y": 663.5621
+            },
+            "Scale": {
+              "ScaleX": 1.3157,
+              "ScaleY": 1.5404
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.376,
+              "Y": 0.6912
+            },
+            "PreSize": {
+              "X": 0.3438,
+              "Y": 0.0688
+            },
+            "LeftMargin": 130.6663,
+            "RightMargin": 289.3337,
+            "TopMargin": 263.4379,
+            "BottomMargin": 630.5621,
+            "Tag": 179,
+            "ActionTag": -639301119,
+            "Size": {
+              "X": 220.0,
+              "Y": 66.0
+            },
+            "Name": "Button_Return",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "game_pause_btn_back.png",
+        "Default/Button_Disable.png",
+        "num.png",
+        "num.fnt"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

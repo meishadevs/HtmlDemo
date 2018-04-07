@@ -1,0 +1,380 @@
+{
+  "ID": "88744557-bf54-42d6-af28-71b326b4e278",
+  "Version": "2.3.0.0",
+  "Name": "Dialog",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 21,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "24.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 27.4088,
+              "Y": -6.9955
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.36
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -274.5912,
+            "RightMargin": -329.4088,
+            "TopMargin": -232.0045,
+            "BottomMargin": -245.9955,
+            "Tag": 22,
+            "ActionTag": -1265827919,
+            "Size": {
+              "X": 604.0,
+              "Y": 478.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "你的复活道具的个数",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -60.8237,
+              "Y": 79.0001
+            },
+            "Scale": {
+              "ScaleX": 2.28,
+              "ScaleY": 3.06
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -159.8237,
+            "RightMargin": -38.1763,
+            "TopMargin": -90.0001,
+            "BottomMargin": 68.0001,
+            "Tag": 23,
+            "ActionTag": 1290236346,
+            "Size": {
+              "X": 198.0,
+              "Y": 22.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 166.2289,
+              "Y": 58.4048
+            },
+            "Scale": {
+              "ScaleX": 2.3734,
+              "ScaleY": 1.609
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 166.2289,
+            "RightMargin": -196.2289,
+            "TopMargin": -90.4048,
+            "BottomMargin": 58.4048,
+            "Tag": 25,
+            "ActionTag": 1434186285,
+            "Size": {
+              "X": 30.0,
+              "Y": 32.0
+            },
+            "Name": "num_life",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "你是否想要复活",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -16.4764,
+              "Y": -21.229
+            },
+            "Scale": {
+              "ScaleX": 3.5993,
+              "ScaleY": 3.394
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -86.4764,
+            "RightMargin": -53.5236,
+            "TopMargin": 11.229,
+            "BottomMargin": -31.229,
+            "Tag": 26,
+            "ActionTag": -48285894,
+            "Size": {
+              "X": 140.0,
+              "Y": 20.0
+            },
+            "Name": "Text_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button_yes.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button_yes.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 128,
+            "Scale9Height": 70,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -179.2342,
+              "Y": -151.4059
+            },
+            "Scale": {
+              "ScaleX": 0.9876,
+              "ScaleY": 1.3058
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -258.2342,
+            "RightMargin": 100.2342,
+            "TopMargin": 105.4059,
+            "BottomMargin": -197.4059,
+            "Tag": 27,
+            "ActionTag": 1404689479,
+            "Size": {
+              "X": 158.0,
+              "Y": 92.0
+            },
+            "Name": "Button_Yes",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button_no.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button_no.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 96,
+            "Scale9Height": 62,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.7159,
+              "ScaleY": 0.3453
+            },
+            "Position": {
+              "X": 182.3983,
+              "Y": -167.2411
+            },
+            "Scale": {
+              "ScaleX": 1.0147,
+              "ScaleY": 1.4872
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 92.1949,
+            "RightMargin": -218.1949,
+            "TopMargin": 112.2463,
+            "BottomMargin": -196.2463,
+            "Tag": 28,
+            "ActionTag": -1183403295,
+            "Size": {
+              "X": 126.0,
+              "Y": 84.0
+            },
+            "Name": "Button_No",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "button_yes.png",
+        "Default/Button_Disable.png",
+        "num.png",
+        "num.fnt",
+        "button_no.png",
+        "24.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,203 @@
+{
+  "ID": "c04bea22-7d9f-4f25-be25-8b208c6046a5",
+  "Version": "2.3.0.0",
+  "Name": "Item_2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 191,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "achieve_medalGold.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -136.8365,
+              "Y": -23.5121
+            },
+            "Scale": {
+              "ScaleX": 0.5695,
+              "ScaleY": 0.4671
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -177.8365,
+            "RightMargin": 95.8365,
+            "TopMargin": -17.4879,
+            "BottomMargin": -64.5121,
+            "Tag": 193,
+            "ActionTag": -1342029102,
+            "Size": {
+              "X": 82.0,
+              "Y": 82.0
+            },
+            "Name": "newGold_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "500",
+            "LabelBMFontFile_CNB": {
+              "Type": "Default",
+              "Path": "Default/defaultBMFont.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -82.6135,
+              "Y": -27.512
+            },
+            "Scale": {
+              "ScaleX": 1.504,
+              "ScaleY": 1.5155
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -104.1135,
+            "RightMargin": 61.1135,
+            "TopMargin": 9.512,
+            "BottomMargin": -45.512,
+            "Tag": 194,
+            "ActionTag": -1856755484,
+            "Size": {
+              "X": 43.0,
+              "Y": 36.0
+            },
+            "Name": "BitmapFontLabel_2",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "BuyButton.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "BuyButton.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 9,
+            "Scale9Width": 40,
+            "Scale9Height": 12,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.9539,
+              "Y": -29.7995
+            },
+            "Scale": {
+              "ScaleX": 1.2744,
+              "ScaleY": 1.9279
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -35.9539,
+            "RightMargin": -34.0461,
+            "TopMargin": 14.7995,
+            "BottomMargin": -44.7995,
+            "Tag": 195,
+            "ActionTag": -666159639,
+            "Size": {
+              "X": 70.0,
+              "Y": 30.0
+            },
+            "Name": "Button_life",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "BuyButton.png",
+        "Default/Button_Disable.png",
+        "Default/defaultBMFont.png",
+        "Default/defaultBMFont.fnt",
+        "achieve_medalGold.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

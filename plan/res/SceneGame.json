@@ -1,0 +1,810 @@
+{
+  "ID": "556a7277-6ea9-42ba-8e11-29d13948022d",
+  "Version": "2.3.0.0",
+  "Name": "SceneGame",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 14,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "VisibleForFrame": false,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 1.35,
+              "ScaleY": 1.2
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 80.0,
+            "RightMargin": 80.0,
+            "TopMargin": 80.0,
+            "BottomMargin": 80.0,
+            "Tag": 15,
+            "ActionTag": -1622873308,
+            "Size": {
+              "X": 480.0,
+              "Y": 800.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "生命值",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 3.6932,
+              "Y": 945.2364
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0058,
+              "Y": 0.9846
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 3.6932,
+            "RightMargin": 564.3068,
+            "TopMargin": 14.7636,
+            "BottomMargin": 921.2364,
+            "Tag": 11,
+            "ActionTag": -1299789760,
+            "Size": {
+              "X": 72.0,
+              "Y": 24.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ProgressInfo": 100,
+            "ImageFileData": {
+              "Type": "Normal",
+              "Path": "BS08.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 185.0,
+              "Y": 930.0
+            },
+            "Scale": {
+              "ScaleX": 1.2,
+              "ScaleY": 0.7
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2891,
+              "Y": 0.9688
+            },
+            "PreSize": {
+              "X": 0.2813,
+              "Y": 0.0646
+            },
+            "LeftMargin": 95.0,
+            "RightMargin": 365.0,
+            "TopMargin": -1.0,
+            "BottomMargin": 899.0,
+            "Tag": 12,
+            "ActionTag": -1629843727,
+            "Size": {
+              "X": 180.0,
+              "Y": 62.0
+            },
+            "Name": "LoadingBar_1",
+            "ctype": "LoadingBarObjectData"
+          },
+          {
+            "ProgressInfo": 100,
+            "ImageFileData": {
+              "Type": "Normal",
+              "Path": "BS09.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 180.0,
+              "Y": 933.9993
+            },
+            "Scale": {
+              "ScaleX": 2.1792,
+              "ScaleY": 2.9958
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2813,
+              "Y": 0.9729
+            },
+            "PreSize": {
+              "X": 0.1469,
+              "Y": 0.0104
+            },
+            "LeftMargin": 133.0,
+            "RightMargin": 413.0,
+            "TopMargin": 21.0007,
+            "BottomMargin": 928.9993,
+            "Tag": 13,
+            "ActionTag": -902916372,
+            "Size": {
+              "X": 94.0,
+              "Y": 10.0
+            },
+            "Name": "LoadingBar_hp",
+            "ctype": "LoadingBarObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "当前得分",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 404.5231,
+              "Y": 947.4673
+            },
+            "Scale": {
+              "ScaleX": 1.1369,
+              "ScaleY": 1.13
+            },
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6321,
+              "Y": 0.9869
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 404.5231,
+            "RightMargin": 155.4769,
+            "TopMargin": 12.5327,
+            "BottomMargin": 927.4673,
+            "Tag": 14,
+            "ActionTag": -113778512,
+            "Size": {
+              "X": 80.0,
+              "Y": 20.0
+            },
+            "Name": "Text_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "number.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 498.9905,
+              "Y": 935.9855
+            },
+            "Scale": {
+              "ScaleX": 0.3,
+              "ScaleY": 0.3
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7797,
+              "Y": 0.975
+            },
+            "PreSize": {
+              "X": 0.075,
+              "Y": 0.0333
+            },
+            "LeftMargin": 498.9905,
+            "RightMargin": 93.0095,
+            "TopMargin": -7.9855,
+            "BottomMargin": 935.9855,
+            "Tag": 16,
+            "ActionTag": 1666211381,
+            "Size": {
+              "X": 48.0,
+              "Y": 32.0
+            },
+            "Name": "Label_Score",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "无敌道具的个数",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 9.2593,
+              "Y": 895.8543
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0145,
+              "Y": 0.9332
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 9.2593,
+            "RightMargin": 476.7407,
+            "TopMargin": 64.1457,
+            "BottomMargin": 873.8543,
+            "Tag": 18,
+            "ActionTag": -1072623342,
+            "Size": {
+              "X": 154.0,
+              "Y": 22.0
+            },
+            "Name": "Text_3",
+            "ctype": "TextObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "num.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 165.91,
+              "Y": 868.1283
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2592,
+              "Y": 0.9043
+            },
+            "PreSize": {
+              "X": 0.0469,
+              "Y": 0.0333
+            },
+            "LeftMargin": 165.91,
+            "RightMargin": 444.09,
+            "TopMargin": 59.8717,
+            "BottomMargin": 868.1283,
+            "Tag": 20,
+            "ActionTag": 1879504657,
+            "Size": {
+              "X": 30.0,
+              "Y": 32.0
+            },
+            "Name": "Label_Score_0",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "achieve_medalCopper.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "achieve_medalGold.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 11,
+            "Scale9Width": 56,
+            "Scale9Height": 60,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 70.0,
+              "Y": 840.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1094,
+              "Y": 0.875
+            },
+            "PreSize": {
+              "X": 0.1281,
+              "Y": 0.0854
+            },
+            "LeftMargin": 29.0,
+            "RightMargin": 529.0,
+            "TopMargin": 79.0,
+            "BottomMargin": 799.0,
+            "Tag": 21,
+            "ActionTag": 35167439,
+            "Size": {
+              "X": 82.0,
+              "Y": 82.0
+            },
+            "Name": "Button_Item",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Boom.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "VisibleForFrame": false,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 237.237,
+              "Y": 440.4577
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.3707,
+              "Y": 0.4588
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 237.237,
+            "RightMargin": 402.763,
+            "TopMargin": 519.5423,
+            "BottomMargin": 440.4577,
+            "Tag": 186,
+            "ActionTag": -2026105942,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ProjectNode_5",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "wudi.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "VisibleForFrame": false,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.4954
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 2.051,
+              "ScaleY": 1.5802
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 255.0,
+            "RightMargin": 255.0,
+            "TopMargin": 414.402,
+            "BottomMargin": 415.598,
+            "Tag": 14,
+            "ActionTag": 827068677,
+            "Size": {
+              "X": 130.0,
+              "Y": 130.0
+            },
+            "Name": "Sprite_god",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Dialog.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "VisibleForFrame": false,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 320.0,
+            "RightMargin": 320.0,
+            "TopMargin": 480.0,
+            "BottomMargin": 480.0,
+            "Tag": 31,
+            "ActionTag": 21058284,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ProjectNode_1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "props_gold.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "props_luanwu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 19,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.3895,
+              "ScaleY": 0.6504
+            },
+            "Position": {
+              "X": 452.1875,
+              "Y": 903.6021
+            },
+            "Scale": {
+              "ScaleX": 1.0137,
+              "ScaleY": 0.8089
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7065,
+              "Y": 0.9413
+            },
+            "PreSize": {
+              "X": 0.0656,
+              "Y": 0.0427
+            },
+            "LeftMargin": 435.8285,
+            "RightMargin": 162.1715,
+            "TopMargin": 42.0643,
+            "BottomMargin": 876.9357,
+            "Tag": 234,
+            "ActionTag": -1459072639,
+            "Size": {
+              "X": 42.0,
+              "Y": 41.0
+            },
+            "Name": "Button_Return",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "GamoOver.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "VisibleForFrame": false,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 281.7715,
+              "Y": 462.4572
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4403,
+              "Y": 0.4817
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 281.7715,
+            "RightMargin": 358.2285,
+            "TopMargin": 497.5428,
+            "BottomMargin": 462.4572,
+            "Tag": 99,
+            "ActionTag": 597815705,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ProjectNode_GameOver",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Setting.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "VisibleForFrame": false,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 293.0182,
+              "Y": 499.5938
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.4578,
+              "Y": 0.5204
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 293.0182,
+            "RightMargin": 346.9818,
+            "TopMargin": 460.4062,
+            "BottomMargin": 499.5938,
+            "Tag": 70,
+            "ActionTag": 629720021,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ProjectNode_2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "VisibleForFrame": false,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 350.0,
+              "Y": 550.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.8945
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5469,
+              "Y": 0.5729
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 350.0,
+            "RightMargin": 290.0,
+            "TopMargin": 410.0,
+            "BottomMargin": 550.0,
+            "Tag": 87,
+            "ActionTag": -1362474290,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ProjectNode_Shop",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "GamoOver.json",
+        "props_luanwu.png",
+        "props_gold.png",
+        "Dialog.json",
+        "achieve_medalGold.png",
+        "BS09.png",
+        "bg.png",
+        "shop.json",
+        "Setting.json",
+        "wudi.png",
+        "Boom.json",
+        "achieve_medalCopper.png",
+        "Default/Button_Disable.png",
+        "num.png",
+        "num.fnt",
+        "number.png",
+        "number.fnt",
+        "BS08.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

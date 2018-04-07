@@ -1,0 +1,294 @@
+{
+  "ID": "6439d105-59e0-4f6a-a3d1-6d73129e9f04",
+  "Version": "2.3.0.0",
+  "Name": "settingScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 450,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "bgUI.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 317.4941,
+              "Y": 480.6515
+            },
+            "Scale": {
+              "ScaleX": 1.01,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4961,
+              "Y": 0.5007
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -2.5059,
+            "RightMargin": 2.5059,
+            "TopMargin": -0.6515,
+            "BottomMargin": 0.6515,
+            "Tag": 452,
+            "ActionTag": -702111377,
+            "Size": {
+              "X": 640.0,
+              "Y": 960.0
+            },
+            "Name": "sprite_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "设置游戏中的声音",
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 762.9741
+            },
+            "Scale": {
+              "ScaleX": 2.3572,
+              "ScaleY": 2.108
+            },
+            "CColor": {
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7948
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 240.0,
+            "RightMargin": 240.0,
+            "TopMargin": 187.0259,
+            "BottomMargin": 752.9741,
+            "Tag": 453,
+            "ActionTag": 1808827622,
+            "Size": {
+              "X": 160.0,
+              "Y": 20.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "game_pause_btn_back.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game_pause_btn_back.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 190,
+            "Scale9Height": 44,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0,
+            "ShadowOffsetY": 0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 278.4526,
+              "Y": 558.2859
+            },
+            "Scale": {
+              "ScaleX": 0.7314,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4351,
+              "Y": 0.5815
+            },
+            "PreSize": {
+              "X": 0.3438,
+              "Y": 0.0688
+            },
+            "LeftMargin": 168.4526,
+            "RightMargin": 251.5474,
+            "TopMargin": 368.7141,
+            "BottomMargin": 525.2859,
+            "Tag": 455,
+            "ActionTag": 1016644716,
+            "Size": {
+              "X": 220.0,
+              "Y": 66.0
+            },
+            "Name": "Button_Return",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "button_sound_off.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 200.0,
+              "Y": 660.0
+            },
+            "Scale": {
+              "ScaleX": 2.6,
+              "ScaleY": 1.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3125,
+              "Y": 0.6875
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 200.0,
+            "RightMargin": 382.0,
+            "TopMargin": 262.0,
+            "BottomMargin": 660.0,
+            "Tag": 139,
+            "ActionTag": 400848698,
+            "Size": {
+              "X": 58.0,
+              "Y": 38.0
+            },
+            "Name": "Button_off",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "button_sound_on.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 200.0,
+              "Y": 660.0
+            },
+            "Scale": {
+              "ScaleX": 2.6,
+              "ScaleY": 1.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3125,
+              "Y": 0.6875
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 200.0,
+            "RightMargin": 382.0,
+            "TopMargin": 262.0,
+            "BottomMargin": 660.0,
+            "Tag": 140,
+            "ActionTag": -1077262576,
+            "Size": {
+              "X": 58.0,
+              "Y": 38.0
+            },
+            "Name": "Button_on",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "button_sound_off.png",
+        "game_pause_btn_back.png",
+        "Default/Button_Disable.png",
+        "button_sound_on.png",
+        "bgUI.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
