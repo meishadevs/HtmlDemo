@@ -63,5 +63,3 @@
 - **[混合布局3](http://meishadevs.com/HtmlDemo/%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E7%BB%93%E6%9E%84/%E6%B7%B7%E5%90%88%E5%B8%83%E5%B1%8003.html)**
 - **[混合布局4](http://meishadevs.com/HtmlDemo/%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E7%BB%93%E6%9E%84/%E6%B7%B7%E5%90%88%E5%B8%83%E5%B1%8004.html)**
 - **[混合自适应布局](http://meishadevs.com/HtmlDemo/%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E7%BB%93%E6%9E%84/%E6%B7%B7%E5%90%88%E5%B8%83%E5%B1%80%E8%87%AA%E9%80%82%E5%BA%94.html)**
-- **[饼图](http://meishadevs.com/JavaScriptDemo/%E9%A5%BC%E5%9B%BE/)**
-- **[折线图](http://meishadevs.com/JavaScriptDemo/%E6%8A%98%E7%BA%BF%E5%9B%BE/)**
